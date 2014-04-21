@@ -1,6 +1,6 @@
 //
-//  ProPointsAssistantTests.m
-//  ProPointsAssistantTests
+//  TrackingAssistantTests.m
+//  TrackingAssistantTests
 //
 //  Created by Brendan Coyle on 07/02/2014.
 //  Copyright (c) 2014 Brendan Coyle. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ProPointsAssistantTests : XCTestCase
+@interface TrackingAssistantTests : XCTestCase
 
 @end
 
-@implementation ProPointsAssistantTests
+@implementation TrackingAssistantTests
 
 - (void)setUp
 {

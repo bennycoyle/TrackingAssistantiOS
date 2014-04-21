@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C6496AB818A569AB00D6C3AE"
-               BuildableName = "ProPointsAssistant.app"
-               BlueprintName = "ProPointsAssistant"
-               ReferencedContainer = "container:ProPointsAssistant.xcodeproj">
+               BuildableName = "TrackingAssistant.app"
+               BlueprintName = "TrackingAssistant"
+               ReferencedContainer = "container:TrackingAssistant.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C6496ADC18A569AB00D6C3AE"
-               BuildableName = "ProPointsAssistantTests.xctest"
-               BlueprintName = "ProPointsAssistantTests"
-               ReferencedContainer = "container:ProPointsAssistant.xcodeproj">
+               BuildableName = "TrackingAssistantTests.xctest"
+               BlueprintName = "TrackingAssistantTests"
+               ReferencedContainer = "container:TrackingAssistant.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6496AB818A569AB00D6C3AE"
-            BuildableName = "ProPointsAssistant.app"
-            BlueprintName = "ProPointsAssistant"
-            ReferencedContainer = "container:ProPointsAssistant.xcodeproj">
+            BuildableName = "TrackingAssistant.app"
+            BlueprintName = "TrackingAssistant"
+            ReferencedContainer = "container:TrackingAssistant.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6496AB818A569AB00D6C3AE"
-            BuildableName = "ProPointsAssistant.app"
-            BlueprintName = "ProPointsAssistant"
-            ReferencedContainer = "container:ProPointsAssistant.xcodeproj">
+            BuildableName = "TrackingAssistant.app"
+            BlueprintName = "TrackingAssistant"
+            ReferencedContainer = "container:TrackingAssistant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C6496AB818A569AB00D6C3AE"
-            BuildableName = "ProPointsAssistant.app"
-            BlueprintName = "ProPointsAssistant"
-            ReferencedContainer = "container:ProPointsAssistant.xcodeproj">
+            BuildableName = "TrackingAssistant.app"
+            BlueprintName = "TrackingAssistant"
+            ReferencedContainer = "container:TrackingAssistant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

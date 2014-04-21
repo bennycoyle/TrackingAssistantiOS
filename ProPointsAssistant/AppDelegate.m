@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  ProPointsAssistant
+//  TrackingAssistant
 //
 //  Created by Brendan Coyle on 07/02/2014.
 //  Copyright (c) 2014 Brendan Coyle. All rights reserved.
@@ -8,11 +8,67 @@
 
 #import "AppDelegate.h"
 
-@implementation AppDelegate
+@implementation AppDelegate {
+    UIViewController *viewController;
+    NSString *measurement;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if( ! [defaults objectForKey:@"measurement"]) {
+        [defaults setObject:@"LBs" forKey:@"measurement"];
+    }
+    //UIViewController *viewController;
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+
+    measurement = [defaults objectForKey:@"measurement"];
+    
+    #define IDIOM    UI_USER_INTERFACE_IDIOM()
+    #define IPAD     UIUserInterfaceIdiomPad
+
+    //Storyboard ID here really, really confused me..
+    //but it's in the <AppName>-info.plist file...
+    //Main storyboard..... <Just make sure take iPhone for iPhone and iPad for iPad, duh!>
+    
+    
+    if ( IDIOM != IPAD ) {
+  
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
+
+        if ( [measurement isEqualToString:@"KGs"] ) {
+            //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPhoneKGs"];
+        } else if ( [measurement isEqualToString:@"LBs"] ) {
+            //ViewTwois the StoryBoard ID I specified for the controller in storyboard editor
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPhoneLBs"];
+        } else {
+            NSLog(@"Pants...");
+        }
+
+    
+        self.window.rootViewController = viewController;
+        [self.window makeKeyAndVisible];
+    }
+   
+    if ( IDIOM == IPAD ) {
+        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+        
+        if ( [measurement isEqualToString:@"KGs"] ) {
+            //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPadKGs"];
+            
+        } else if ( [measurement isEqualToString:@"LBs"] ) {
+            //ViewTwo is the StoryBoard ID I specified for the controller in storyboard editor
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPadLBs"];
+        } else {
+            NSLog(@"Shouldn't Reach here");
+        }
+        self.window.rootViewController = viewController;
+        [self.window makeKeyAndVisible];
+    }
     return YES;
 }
 							
@@ -42,5 +98,8 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+
 
 @end

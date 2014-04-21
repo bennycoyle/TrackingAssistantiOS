@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  ProPointsAssistant
+//  TrackingAssistant
 //
 //  Created by Brendan Coyle on 07/02/2014.
 //  Copyright (c) 2014 Brendan Coyle. All rights reserved.
