@@ -51,6 +51,8 @@
 		C664D61C18A6DE6A00C25180 /* fAndHView.m in Sources */ = {isa = PBXBuildFile; fileRef = C664D61B18A6DE6A00C25180 /* fAndHView.m */; };
 		C664D61F18A6E38500C25180 /* boostersView.m in Sources */ = {isa = PBXBuildFile; fileRef = C664D61E18A6E38500C25180 /* boostersView.m */; };
 		C664D62218A6E39900C25180 /* treatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C664D62118A6E39900C25180 /* treatsView.m */; };
+		C67810E319099F6900D968D5 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = C67810E119099F6900D968D5 /* Icon-76.png */; };
+		C67810E419099F6900D968D5 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = C67810E219099F6900D968D5 /* Icon-152.png */; };
 		C6852F1B18BD2F9400D14D34 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = C6852F1A18BD2F9400D14D34 /* facebook.png */; };
 		C68E16A318A96F590020649F /* ThreeCelliPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E16A218A96F590020649F /* ThreeCelliPad.xib */; };
 		C68E16A618A96FAE0020649F /* ThreeCelliPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E16A518A96FAE0020649F /* ThreeCelliPad.m */; };
@@ -146,6 +148,8 @@
 		C664D61E18A6E38500C25180 /* boostersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boostersView.m; sourceTree = "<group>"; };
 		C664D62018A6E39900C25180 /* treatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treatsView.h; sourceTree = "<group>"; };
 		C664D62118A6E39900C25180 /* treatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = treatsView.m; sourceTree = "<group>"; };
+		C67810E119099F6900D968D5 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "images/Icon-76.png"; sourceTree = "<group>"; };
+		C67810E219099F6900D968D5 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-152.png"; path = "images/Icon-152.png"; sourceTree = "<group>"; };
 		C6852F1A18BD2F9400D14D34 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = images/facebook.png; sourceTree = "<group>"; };
 		C68E16A218A96F590020649F /* ThreeCelliPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeCelliPad.xib; sourceTree = "<group>"; };
 		C68E16A418A96FAE0020649F /* ThreeCelliPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeCelliPad.h; sourceTree = "<group>"; };
@@ -274,6 +278,8 @@
 		C6496AC318A569AB00D6C3AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C67810E119099F6900D968D5 /* Icon-76.png */,
+				C67810E219099F6900D968D5 /* Icon-152.png */,
 				C65125A61905B08800F4ABD6 /* tab_calc.png */,
 				C65125A4190314F800F4ABD6 /* twitter_large.png */,
 				C65125A2190314A600F4ABD6 /* soundcloud_word.png */,
@@ -478,7 +484,9 @@
 				C664D60818A5930800C25180 /* fillingandhealthy.bc in Resources */,
 				C6D45C4518A5754F00CC3711 /* Settings.bundle in Resources */,
 				C6496AD018A569AB00D6C3AE /* Main_iPhone.storyboard in Resources */,
+				C67810E319099F6900D968D5 /* Icon-76.png in Resources */,
 				C664D5FE18A590CD00C25180 /* ThreeCelliPhone.xib in Resources */,
+				C67810E419099F6900D968D5 /* Icon-152.png in Resources */,
 				C68E16A318A96F590020649F /* ThreeCelliPad.xib in Resources */,
 				C68E16AD18A971540020649F /* OneCelliPad.xib in Resources */,
 				C65125A71905B08800F4ABD6 /* tab_calc.png in Resources */,
