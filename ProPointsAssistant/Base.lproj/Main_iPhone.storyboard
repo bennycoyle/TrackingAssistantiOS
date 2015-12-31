@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="tAs-Iu-RxC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="tAs-Iu-RxC">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Calc Food Points - Food-->
+        <!--PP Calculator-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="calcFoodPoints" sceneMemberID="viewController">
@@ -12,7 +13,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dOz-YR-8Sm">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate PP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dOz-YR-8Sm">
                                 <rect key="frame" x="7" y="75" width="305" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -95,7 +96,7 @@
                             </label>
                         </subviews>
                     </view>
-                    <navigationItem key="navigationItem" title="Food" id="lUa-EV-z9h">
+                    <navigationItem key="navigationItem" title="PP Calculator" id="lUa-EV-z9h">
                         <barButtonItem key="rightBarButtonItem" title="Exercise" id="Vgc-iB-guS">
                             <connections>
                                 <segue destination="pyj-O7-Seq" kind="push" id="mHG-r9-FpI"/>
@@ -116,9 +117,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637" y="73"/>
+            <point key="canvasLocation" x="2208" y="73"/>
         </scene>
-        <!--Calc Exer Points - Exercise-->
+        <!--Exercise-->
         <scene sceneID="SrS-Le-dP9">
             <objects>
                 <viewController id="pyj-O7-Seq" customClass="calcExerPoints" sceneMemberID="viewController">
@@ -215,9 +216,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfD-om-6Vo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2208" y="73"/>
+            <point key="canvasLocation" x="2752" y="73"/>
         </scene>
-        <!--Calc Daily Points - Daily-->
+        <!--Daily-->
         <scene sceneID="pBI-eU-xfi">
             <objects>
                 <viewController id="RPG-Vc-lU7" customClass="calcDailyPoints" sceneMemberID="viewController">
@@ -331,9 +332,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KvA-G8-Nen" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2752" y="73"/>
+            <point key="canvasLocation" x="3386" y="73"/>
         </scene>
-        <!--About View - About-->
+        <!--About-->
         <scene sceneID="34f-mS-S5F">
             <objects>
                 <viewController id="par-rq-x0X" customClass="aboutView" sceneMemberID="viewController">
@@ -473,7 +474,134 @@
             </objects>
             <point key="canvasLocation" x="1637" y="1576"/>
         </scene>
-        <!--Calc Food Points - Food-->
+        <!--SP Calculator-->
+        <scene sceneID="mv0-XR-J5X">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXB-Zz-SXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="DgV-OA-5DZ" customClass="calcSmartPoints" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m6Y-Lj-aBb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Sugars" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="ADR-G1-MH6">
+                                <rect key="frame" x="15" y="190" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="Vpb-pH-caV"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Protein" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="AjG-Vt-PNm">
+                                <rect key="frame" x="15" y="228" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="eOz-mG-9XX"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Servings" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="c9T-tP-wq3">
+                                <rect key="frame" x="15" y="306" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="VXs-iI-3Yz"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PlY-k0-T84">
+                                <rect key="frame" x="193" y="114" width="120" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Saturated Fats" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="kEH-zo-ELN">
+                                <rect key="frame" x="15" y="152" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="oE1-Xb-47v"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate SP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Tx-id-lgf">
+                                <rect key="frame" x="8" y="76" width="305" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Calories" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="msA-lp-77s">
+                                <rect key="frame" x="15" y="114" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="3Ql-BT-I6d"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hrf-VT-60I">
+                                <rect key="frame" x="15" y="362" width="290" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleShadowColor" red="0.63137257099999999" green="0.090196080509999998" blue="0.49411767719999999" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcSmartPoints:" destination="DgV-OA-5DZ" eventType="touchUpInside" id="arh-lK-KhX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XlF-XU-gqE">
+                                <rect key="frame" x="183" y="215" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Value Per" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="qNk-Tg-Uwt">
+                                <rect key="frame" x="15" y="268" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="Pt9-Rd-wDL"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SP Calculator" id="ShF-tw-PY8">
+                        <barButtonItem key="rightBarButtonItem" title="PP Calc" id="8PG-n1-GDP">
+                            <connections>
+                                <segue destination="vXZ-lx-hvc" kind="push" id="Cx1-7J-1H8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="calcSmartPointsView" destination="m6Y-Lj-aBb" id="fok-KC-hFY"/>
+                        <outlet property="caloriesField" destination="msA-lp-77s" id="RZ3-Wm-kcl"/>
+                        <outlet property="proteinField" destination="AjG-Vt-PNm" id="lEJ-h8-K4w"/>
+                        <outlet property="satFatField" destination="kEH-zo-ELN" id="0dO-0M-7Ga"/>
+                        <outlet property="servingField" destination="c9T-tP-wq3" id="RIR-pZ-xZF"/>
+                        <outlet property="smartCalcHeadingLabel" destination="5Tx-id-lgf" id="G3e-hh-0da"/>
+                        <outlet property="smartPointsHeadingLabel" destination="XlF-XU-gqE" id="mlp-Ii-Wfj"/>
+                        <outlet property="smartPointsLabel" destination="PlY-k0-T84" id="fRf-Gm-zid"/>
+                        <outlet property="sugarsField" destination="ADR-G1-MH6" id="bez-Ki-yWp"/>
+                        <outlet property="valuePerField" destination="qNk-Tg-Uwt" id="xCO-mX-ivY"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1632" y="73"/>
+        </scene>
+        <!--PP Calculator-->
         <scene sceneID="UYa-QF-WYp">
             <objects>
                 <viewController id="UC3-Oy-H2M" customClass="calcFoodPoints" sceneMemberID="viewController">
@@ -481,7 +609,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0yq-Ge-jJg">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate PP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0yq-Ge-jJg">
                                 <rect key="frame" x="7.5" y="75" width="305" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -564,7 +692,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Food" id="MkS-hV-NWa">
+                    <navigationItem key="navigationItem" title="PP Calculator" id="MkS-hV-NWa">
                         <barButtonItem key="rightBarButtonItem" title="Exercise" id="V40-jc-3RC">
                             <connections>
                                 <segue destination="upC-Rr-EXG" kind="push" id="TqT-ta-VvB"/>
@@ -584,9 +712,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zed-pZ-q27" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637" y="3246"/>
+            <point key="canvasLocation" x="2208" y="3246"/>
         </scene>
-        <!--Food List View - Food List-->
+        <!--Food List-->
         <scene sceneID="Jgm-As-Rk3">
             <objects>
                 <viewController id="9rU-Nd-CtB" customClass="foodListView" sceneMemberID="viewController">
@@ -618,7 +746,7 @@
             </objects>
             <point key="canvasLocation" x="1632" y="4087"/>
         </scene>
-        <!--F AndH View - Filling And Healthy-->
+        <!--Filling And Healthy-->
         <scene sceneID="mWK-cC-D0K">
             <objects>
                 <viewController id="7YM-tf-d82" customClass="fAndHView" sceneMemberID="viewController">
@@ -650,7 +778,7 @@
             </objects>
             <point key="canvasLocation" x="2208" y="4087"/>
         </scene>
-        <!--Boosters View - Boosters/Drinks-->
+        <!--Boosters/Drinks-->
         <scene sceneID="oHF-ot-iyN">
             <objects>
                 <viewController id="TJI-dM-00L" customClass="boostersView" sceneMemberID="viewController">
@@ -682,7 +810,7 @@
             </objects>
             <point key="canvasLocation" x="2752" y="4087"/>
         </scene>
-        <!--Treats View - Treats-->
+        <!--Treats-->
         <scene sceneID="dXn-N0-5oX">
             <objects>
                 <viewController id="9Xy-yA-kns" customClass="treatsView" sceneMemberID="viewController">
@@ -708,7 +836,7 @@
             </objects>
             <point key="canvasLocation" x="3335" y="4087"/>
         </scene>
-        <!--About View - About-->
+        <!--About-->
         <scene sceneID="Bni-Xz-CbT">
             <objects>
                 <viewController id="dWG-Oa-ybm" customClass="aboutView" sceneMemberID="viewController">
@@ -847,7 +975,7 @@
             </objects>
             <point key="canvasLocation" x="1637" y="4734"/>
         </scene>
-        <!--Calc Exer Points - Exercise-->
+        <!--Exercise-->
         <scene sceneID="tcX-7i-9sg">
             <objects>
                 <viewController id="upC-Rr-EXG" customClass="calcExerPoints" sceneMemberID="viewController">
@@ -934,9 +1062,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCK-Nq-3sW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2208" y="3246"/>
+            <point key="canvasLocation" x="2752" y="3246"/>
         </scene>
-        <!--Calc Daily Points - Daily-->
+        <!--Daily-->
         <scene sceneID="aZn-sm-U7b">
             <objects>
                 <viewController id="KhO-ta-P8v" customClass="calcDailyPoints" sceneMemberID="viewController">
@@ -1028,9 +1156,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5vK-gJ-PD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2752" y="3246"/>
+            <point key="canvasLocation" x="3335" y="3246"/>
         </scene>
-        <!--Navigation Controller - Calculators-->
+        <!--Calculators-->
         <scene sceneID="8AG-Ey-3sp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dDO-Dv-qg3" sceneMemberID="viewController">
@@ -1042,14 +1170,14 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Vgp-yw-VGq"/>
+                        <segue destination="DgV-OA-5DZ" kind="relationship" relationship="rootViewController" id="I8h-pJ-eWf"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g2f-KO-BiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1087" y="73"/>
         </scene>
-        <!--Food List View - Food List-->
+        <!--Food List-->
         <scene sceneID="Wlw-Iw-1Qe">
             <objects>
                 <viewController id="OTn-RT-HDH" customClass="foodListView" sceneMemberID="viewController">
@@ -1101,7 +1229,7 @@
             </objects>
             <point key="canvasLocation" x="481" y="73"/>
         </scene>
-        <!--Navigation Controller - Calculators-->
+        <!--Calculators-->
         <scene sceneID="Ojk-ne-t6D">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="guH-II-7B0" sceneMemberID="viewController">
@@ -1113,12 +1241,140 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="UC3-Oy-H2M" kind="relationship" relationship="rootViewController" id="sbi-2A-j0M"/>
+                        <segue destination="9Ue-oS-RQU" kind="relationship" relationship="rootViewController" id="bYX-Bq-gyb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JmA-7f-zYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1087" y="3246"/>
+        </scene>
+        <!--SP Calculator-->
+        <scene sceneID="NpV-PR-6Kq">
+            <objects>
+                <viewController id="9Ue-oS-RQU" customClass="calcSmartPoints" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4IE-KB-1NQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Value Per" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="On9-BI-Soz">
+                                <rect key="frame" x="15" y="272" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="bUH-K0-9ls"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Saturated Fats" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="IC4-yd-sjW">
+                                <rect key="frame" x="15" y="156" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="fLq-gz-QaZ"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Protein" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="QcB-sZ-aRL">
+                                <rect key="frame" x="15" y="232" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="Hum-xD-YYg"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Servings" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="3zt-No-olC">
+                                <rect key="frame" x="15" y="310" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="qZT-io-kya"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kU9-Q4-4vw">
+                                <rect key="frame" x="183" y="219" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Calories" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="DCC-vJ-1KT">
+                                <rect key="frame" x="15" y="118" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="qfO-es-wRv"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oWI-YI-lO8">
+                                <rect key="frame" x="193" y="118" width="120" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Sugars" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="3Ob-1O-s4X">
+                                <rect key="frame" x="15" y="194" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="Mr5-nu-IQ6"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate SP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0hF-HZ-XHA">
+                                <rect key="frame" x="8" y="80" width="305" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Ci-y0-XBh">
+                                <rect key="frame" x="15" y="366" width="290" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleShadowColor" red="0.63137257099999999" green="0.090196080509999998" blue="0.49411767719999999" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcSmartPoints:" destination="DgV-OA-5DZ" eventType="touchUpInside" id="PfL-FL-1rI"/>
+                                    <action selector="calcSmartPoints:" destination="9Ue-oS-RQU" eventType="touchUpInside" id="pLa-XT-ShK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SP Calculator" id="rXu-39-EhH">
+                        <barButtonItem key="rightBarButtonItem" title="PP Calc" id="g72-kb-OrP">
+                            <connections>
+                                <segue destination="UC3-Oy-H2M" kind="push" id="g4k-mw-dK0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="calcSmartPointsView" destination="4IE-KB-1NQ" id="ofn-Da-iJG"/>
+                        <outlet property="caloriesField" destination="DCC-vJ-1KT" id="Dsu-Ij-vVL"/>
+                        <outlet property="proteinField" destination="QcB-sZ-aRL" id="0BZ-GZ-ILg"/>
+                        <outlet property="satFatField" destination="IC4-yd-sjW" id="znP-U3-WiC"/>
+                        <outlet property="servingField" destination="3zt-No-olC" id="rX4-hr-mow"/>
+                        <outlet property="smartCalcHeadingLabel" destination="0hF-HZ-XHA" id="6YX-BM-I8G"/>
+                        <outlet property="smartPointsHeadingLabel" destination="kU9-Q4-4vw" id="tcy-2b-3B9"/>
+                        <outlet property="smartPointsLabel" destination="oWI-YI-lO8" id="s7r-kw-KYV"/>
+                        <outlet property="sugarsField" destination="3Ob-1O-s4X" id="lP6-mH-rjb"/>
+                        <outlet property="valuePerField" destination="On9-BI-Soz" id="TOY-p7-Vlb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u7f-yj-LEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637" y="3246"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="k4I-al-B2A">
@@ -1140,7 +1396,7 @@
             </objects>
             <point key="canvasLocation" x="481" y="3246"/>
         </scene>
-        <!--Navigation Controller - Lists-->
+        <!--Lists-->
         <scene sceneID="emn-eh-ZVT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="glC-cl-Ufu" sceneMemberID="viewController">
@@ -1159,7 +1415,7 @@
             </objects>
             <point key="canvasLocation" x="1087" y="830"/>
         </scene>
-        <!--Navigation Controller - About-->
+        <!--About-->
         <scene sceneID="MUi-8b-Gmq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="71a-pd-dWr" sceneMemberID="viewController">
@@ -1208,7 +1464,7 @@
             </objects>
             <point key="canvasLocation" x="1637" y="830"/>
         </scene>
-        <!--F AndH View - Filling And Healthy-->
+        <!--Filling And Healthy-->
         <scene sceneID="nIO-uV-ApS">
             <objects>
                 <viewController id="xUo-of-VRg" customClass="fAndHView" sceneMemberID="viewController">
@@ -1240,7 +1496,7 @@
             </objects>
             <point key="canvasLocation" x="2208" y="830"/>
         </scene>
-        <!--Boosters View - Boosters-->
+        <!--Boosters-->
         <scene sceneID="dAi-8X-kev">
             <objects>
                 <viewController id="emb-Mu-qD1" customClass="boostersView" sceneMemberID="viewController">
@@ -1272,7 +1528,7 @@
             </objects>
             <point key="canvasLocation" x="2752" y="830"/>
         </scene>
-        <!--Treats View - Treats-->
+        <!--Treats-->
         <scene sceneID="VJG-21-6zV">
             <objects>
                 <viewController id="GWi-f8-EoT" customClass="treatsView" sceneMemberID="viewController">
@@ -1298,7 +1554,7 @@
             </objects>
             <point key="canvasLocation" x="3386" y="830"/>
         </scene>
-        <!--Navigation Controller - Lists-->
+        <!--Lists-->
         <scene sceneID="gZk-b7-Lbv">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ro4-CD-jei" sceneMemberID="viewController">
@@ -1317,7 +1573,7 @@
             </objects>
             <point key="canvasLocation" x="1087" y="830"/>
         </scene>
-        <!--Navigation Controller - About-->
+        <!--About-->
         <scene sceneID="Hi6-jE-gOP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UrO-cK-qQ2" sceneMemberID="viewController">
@@ -1336,7 +1592,7 @@
             </objects>
             <point key="canvasLocation" x="1087" y="1576"/>
         </scene>
-        <!--Navigation Controller - Lists-->
+        <!--Lists-->
         <scene sceneID="LHc-P2-oqW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="piS-NW-QyI" sceneMemberID="viewController">
@@ -1355,7 +1611,7 @@
             </objects>
             <point key="canvasLocation" x="1087" y="4087"/>
         </scene>
-        <!--Navigation Controller - About-->
+        <!--About-->
         <scene sceneID="aMO-1A-4Jq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TQm-Ar-CW7" sceneMemberID="viewController">

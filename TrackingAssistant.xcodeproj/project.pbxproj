@@ -60,6 +60,7 @@
 		C68E16AB18A9712D0020649F /* TwoCelliPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E16AA18A9712D0020649F /* TwoCelliPad.m */; };
 		C68E16AD18A971540020649F /* OneCelliPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E16AC18A971540020649F /* OneCelliPad.xib */; };
 		C68E16B018A971850020649F /* OneCelliPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E16AF18A971850020649F /* OneCelliPad.m */; };
+		C6923D811C34892C005F1E6E /* calcSmartPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = C6923D801C34892C005F1E6E /* calcSmartPoints.m */; };
 		C69306BB18BBE74C00C6AFDC /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = C69306B618BBE74C00C6AFDC /* google.png */; };
 		C69306BC18BBE74C00C6AFDC /* soundcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = C69306B718BBE74C00C6AFDC /* soundcloud.png */; };
 		C69306BD18BBE74C00C6AFDC /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C69306B818BBE74C00C6AFDC /* twitter.png */; };
@@ -160,6 +161,8 @@
 		C68E16AC18A971540020649F /* OneCelliPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneCelliPad.xib; sourceTree = "<group>"; };
 		C68E16AE18A971850020649F /* OneCelliPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCelliPad.h; sourceTree = "<group>"; };
 		C68E16AF18A971850020649F /* OneCelliPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCelliPad.m; sourceTree = "<group>"; };
+		C6923D7F1C348909005F1E6E /* calcSmartPoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcSmartPoints.h; sourceTree = "<group>"; };
+		C6923D801C34892C005F1E6E /* calcSmartPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calcSmartPoints.m; sourceTree = "<group>"; };
 		C69306B618BBE74C00C6AFDC /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google.png; path = images/google.png; sourceTree = "<group>"; };
 		C69306B718BBE74C00C6AFDC /* soundcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soundcloud.png; path = images/soundcloud.png; sourceTree = "<group>"; };
 		C69306B818BBE74C00C6AFDC /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = images/twitter.png; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 				C6FE64C918B6A2DE0002E53D /* calcExerPoints.m */,
 				C63F221C18B942DB00868C7D /* calcDailyPoints.h */,
 				C63F221D18B942DB00868C7D /* calcDailyPoints.m */,
+				C6923D7F1C348909005F1E6E /* calcSmartPoints.h */,
+				C6923D801C34892C005F1E6E /* calcSmartPoints.m */,
 			);
 			name = calculatorViews;
 			sourceTree = "<group>";
@@ -438,7 +443,7 @@
 		C6496AB118A569AB00D6C3AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Brendan Coyle";
 				TargetAttributes = {
 					C6496AB818A569AB00D6C3AE = {
@@ -534,6 +539,7 @@
 				C6496AC918A569AB00D6C3AE /* main.m in Sources */,
 				C653652818A97E2C003ED2F1 /* boostersiPad.m in Sources */,
 				C68E16B018A971850020649F /* OneCelliPad.m in Sources */,
+				C6923D811C34892C005F1E6E /* calcSmartPoints.m in Sources */,
 				C664D61518A6D33100C25180 /* TwoCelliPhone.m in Sources */,
 				C664D60118A5914C00C25180 /* ThreeCelliPhone.m in Sources */,
 				C653652218A97555003ED2F1 /* foodListiPad.m in Sources */,
@@ -608,7 +614,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -623,6 +628,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -648,7 +654,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -688,6 +693,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProPointsAssistant/TrackingAssistant-Prefix.pch";
 				INFOPLIST_FILE = "ProPointsAssistant/TrackingAssistant-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.TrackingAssistant;
 				PRODUCT_NAME = TrackingAssistant;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -704,6 +710,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProPointsAssistant/TrackingAssistant-Prefix.pch";
 				INFOPLIST_FILE = "ProPointsAssistant/TrackingAssistant-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bc.TrackingAssistant;
 				PRODUCT_NAME = TrackingAssistant;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -713,7 +720,6 @@
 		C6496AF218A569AB00D6C3AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProPointsAssistant.app/ProPointsAssistant";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -727,6 +733,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ProPointsAssistantTests/TrackingAssistantTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TrackingAssistantTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -736,7 +743,6 @@
 		C6496AF318A569AB00D6C3AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProPointsAssistant.app/ProPointsAssistant";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -746,6 +752,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProPointsAssistant/ProPointsAssistant-Prefix.pch";
 				INFOPLIST_FILE = "ProPointsAssistantTests/TrackingAssistantTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TrackingAssistantTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
