@@ -34,6 +34,8 @@
 		C653652518A97A5C003ED2F1 /* fAndHiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C653652418A97A5C003ED2F1 /* fAndHiPad.m */; };
 		C653652818A97E2C003ED2F1 /* boostersiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C653652718A97E2C003ED2F1 /* boostersiPad.m */; };
 		C653652B18A97E8B003ED2F1 /* treatsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C653652A18A97E8B003ED2F1 /* treatsiPad.m */; };
+		C6560CBC1C35A3410098BA3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6560CBB1C35A3410098BA3A /* Images.xcassets */; };
+		C6560CBE1C35AA670098BA3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6560CBD1C35AA670098BA3A /* Default-568h@2x.png */; };
 		C6619AC018F74FFE006A261F /* stitchyTimesFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C6619ABF18F74FFE006A261F /* stitchyTimesFont.m */; };
 		C6619AC218F7501F006A261F /* StitchyTimes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6619AC118F7501F006A261F /* StitchyTimes.ttf */; };
 		C664D5FC18A5877700C25180 /* proPointsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C664D5FB18A5877700C25180 /* proPointsIcon.png */; };
@@ -124,6 +126,8 @@
 		C653652718A97E2C003ED2F1 /* boostersiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boostersiPad.m; sourceTree = "<group>"; };
 		C653652918A97E8B003ED2F1 /* treatsiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treatsiPad.h; sourceTree = "<group>"; };
 		C653652A18A97E8B003ED2F1 /* treatsiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = treatsiPad.m; sourceTree = "<group>"; };
+		C6560CBB1C35A3410098BA3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TrackingAssistant/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		C6560CBD1C35AA670098BA3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../Downloads/Default-568h@2x.png"; sourceTree = "<group>"; };
 		C6619ABE18F74FFE006A261F /* stitchyTimesFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stitchyTimesFont.h; sourceTree = "<group>"; };
 		C6619ABF18F74FFE006A261F /* stitchyTimesFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stitchyTimesFont.m; sourceTree = "<group>"; };
 		C6619AC118F7501F006A261F /* StitchyTimes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = StitchyTimes.ttf; path = fonts/StitchyTimes.ttf; sourceTree = "<group>"; };
@@ -230,6 +234,7 @@
 		C6496AB018A569AB00D6C3AE = {
 			isa = PBXGroup;
 			children = (
+				C6560CBD1C35AA670098BA3A /* Default-568h@2x.png */,
 				C6496AC218A569AB00D6C3AE /* TrackingAssistant */,
 				C6496AE418A569AB00D6C3AE /* TrackingAssistantTests */,
 				C6496ABB18A569AB00D6C3AE /* Frameworks */,
@@ -275,6 +280,7 @@
 				C6496AC318A569AB00D6C3AE /* Supporting Files */,
 				C6D45C4418A5754F00CC3711 /* Settings.bundle */,
 				C664D61918A6DCCA00C25180 /* listViews */,
+				C6560CBB1C35A3410098BA3A /* Images.xcassets */,
 			);
 			name = TrackingAssistant;
 			path = ProPointsAssistant;
@@ -493,6 +499,7 @@
 				C664D5FE18A590CD00C25180 /* ThreeCelliPhone.xib in Resources */,
 				C67810E419099F6900D968D5 /* Icon-152.png in Resources */,
 				C68E16A318A96F590020649F /* ThreeCelliPad.xib in Resources */,
+				C6560CBC1C35A3410098BA3A /* Images.xcassets in Resources */,
 				C68E16AD18A971540020649F /* OneCelliPad.xib in Resources */,
 				C65125A71905B08800F4ABD6 /* tab_calc.png in Resources */,
 				C664D61018A6D30300C25180 /* TwoCelliPhone.xib in Resources */,
@@ -502,6 +509,7 @@
 				C69306BD18BBE74C00C6AFDC /* twitter.png in Resources */,
 				C6496AC718A569AB00D6C3AE /* InfoPlist.strings in Resources */,
 				C65125A1190313BD00F4ABD6 /* youtube_word.png in Resources */,
+				C6560CBE1C35AA670098BA3A /* Default-568h@2x.png in Resources */,
 				C664D60A18A5930800C25180 /* treats.bc in Resources */,
 				C69306BB18BBE74C00C6AFDC /* google.png in Resources */,
 				C651259D1903121000F4ABD6 /* google_word.png in Resources */,

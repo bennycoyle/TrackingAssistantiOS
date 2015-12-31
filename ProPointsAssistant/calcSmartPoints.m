@@ -168,11 +168,8 @@
                     dServings = [self getServings];
                     
                     if ( dValuePer > 0 && dServings > 0 ) {
-                        NSLog(@"Calories = %f, SatFat = %f, Sugars = %f, Protein = %f, ValuePer = %f, Servings = %f", dCalories, dSatFat, dSugars, dProtein, dValuePer, dServings);
                         pointsUnrounded = [self calcPoints:dCalories b:dSatFat c:dSugars d:dProtein e:dValuePer f:dServings];
-                        NSLog(@"Unrounded = %d", pointsUnrounded);
                         pointsRounded = [cf roundIt:pointsUnrounded];
-                        NSLog(@"Rounded = %d", pointsRounded);
                         
                         NSString *pointsString = [NSString stringWithFormat:@"%d", pointsRounded];
                         [cf setPointsLabels:_smartPointsHeadingLabel points:_smartPointsLabel value:pointsString];

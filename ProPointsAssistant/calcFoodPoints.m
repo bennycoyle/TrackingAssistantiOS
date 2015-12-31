@@ -161,10 +161,8 @@
                         [cf notifyUsers:@"Servings" msg:@"Incorrect Servings Value"];
                     } else {
                         dServings = [self getServingsValue];
-                        NSLog(@"Protein = %f, Carbs = %f, Fat = %f, Fibre = %f, Servings = %f", dProtein, dCarbs, dFat, dFibre, dServings);
                         pointsUnrounded = [self calcPoints:dProtein b:dCarbs c:dFat d:dFibre e:dServings];
                         pointsRounded = [cf roundIt:pointsUnrounded];
-                        NSLog(@"Rounded = %d", pointsRounded);
                         
                         NSString *pointsString = [NSString stringWithFormat:@"%d", pointsRounded];
                         [cf setPointsLabels:_foodPointsHeadingLabel points:_foodPointsLabel value:pointsString];
