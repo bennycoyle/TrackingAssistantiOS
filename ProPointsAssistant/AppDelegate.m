@@ -11,18 +11,23 @@
 @implementation AppDelegate {
     UIViewController *viewController;
     NSString *measurement;
+    NSString *plan;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if( ! [defaults objectForKey:@"plan"]) {
+        [defaults setObject:@"SmartPoints" forKey:@"plan"];
+    }
     if( ! [defaults objectForKey:@"measurement"]) {
         [defaults setObject:@"LBs" forKey:@"measurement"];
     }
     //UIViewController *viewController;
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
 
+    plan = [defaults objectForKey:@"plan"];
     measurement = [defaults objectForKey:@"measurement"];
     
     #define IDIOM    UI_USER_INTERFACE_IDIOM()
@@ -34,20 +39,32 @@
     
     
     if ( IDIOM != IPAD ) {
-  
+        
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
-
-        if ( [measurement isEqualToString:@"KGs"] ) {
-            //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
-            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPhoneKGs"];
-        } else if ( [measurement isEqualToString:@"LBs"] ) {
-            //ViewTwois the StoryBoard ID I specified for the controller in storyboard editor
-            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPhoneLBs"];
-        } else {
-            NSLog(@"Pants...");
+        
+        if ( [plan isEqualToString:@"ProPoints"] ) {
+            if ( [measurement isEqualToString:@"KGs"] ) {
+                //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPhoneKGs"];
+            } else if ( [measurement isEqualToString:@"LBs"] ) {
+                //ViewTwois the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPhoneLBs"];
+            } else {
+                NSLog(@"Pants...");
+            }
         }
-
-    
+        
+        if ( [plan isEqualToString:@"SmartPoints"] ) {
+            if ( [measurement isEqualToString:@"KGs"] ) {
+                //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"SPiPhoneKGs"];
+            } else if ( [measurement isEqualToString:@"LBs"] ) {
+                //ViewTwois the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"SPiPhoneLBs"];
+            } else {
+                NSLog(@"Pants...");
+            }
+        }
         self.window.rootViewController = viewController;
         [self.window makeKeyAndVisible];
     }
@@ -55,17 +72,31 @@
     if ( IDIOM == IPAD ) {
         
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
-        
-        if ( [measurement isEqualToString:@"KGs"] ) {
-            //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
-            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPadKGs"];
+        if ( [plan isEqualToString:@"ProPoints"] ) {
+            if ( [measurement isEqualToString:@"KGs"] ) {
+                //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPadKGs"];
             
-        } else if ( [measurement isEqualToString:@"LBs"] ) {
-            //ViewTwo is the StoryBoard ID I specified for the controller in storyboard editor
-            viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPadLBs"];
-        } else {
-            NSLog(@"Shouldn't Reach here");
+            } else if ( [measurement isEqualToString:@"LBs"] ) {
+                //ViewTwo is the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"iPadLBs"];
+            } else {
+                NSLog(@"Shouldn't Reach here");
+            }
         }
+        if ( [plan isEqualToString:@"SmartPoints"] ) {
+            if ( [measurement isEqualToString:@"KGs"] ) {
+                //ViewOne is the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"SPiPadKGs"];
+                
+            } else if ( [measurement isEqualToString:@"LBs"] ) {
+                //ViewTwo is the StoryBoard ID I specified for the controller in storyboard editor
+                viewController = [storyboard instantiateViewControllerWithIdentifier:@"SPiPadLBs"];
+            } else {
+                NSLog(@"Shouldn't Reach here");
+            }
+        }
+        
         self.window.rootViewController = viewController;
         [self.window makeKeyAndVisible];
     }

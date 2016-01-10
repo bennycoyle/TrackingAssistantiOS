@@ -53,6 +53,16 @@
 		C664D61C18A6DE6A00C25180 /* fAndHView.m in Sources */ = {isa = PBXBuildFile; fileRef = C664D61B18A6DE6A00C25180 /* fAndHView.m */; };
 		C664D61F18A6E38500C25180 /* boostersView.m in Sources */ = {isa = PBXBuildFile; fileRef = C664D61E18A6E38500C25180 /* boostersView.m */; };
 		C664D62218A6E39900C25180 /* treatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C664D62118A6E39900C25180 /* treatsView.m */; };
+		C67093D01C42C1EC00D5F88C /* calcSPExerPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = C67093CF1C42C1EC00D5F88C /* calcSPExerPoints.m */; };
+		C67093D31C42CEED00D5F88C /* smartpointslist.bc in Resources */ = {isa = PBXBuildFile; fileRef = C67093D21C42CEED00D5F88C /* smartpointslist.bc */; };
+		C67093D61C42CF2200D5F88C /* alcohol.bc in Resources */ = {isa = PBXBuildFile; fileRef = C67093D41C42CF2200D5F88C /* alcohol.bc */; };
+		C67093D71C42CF2200D5F88C /* nocount.bc in Resources */ = {isa = PBXBuildFile; fileRef = C67093D51C42CF2200D5F88C /* nocount.bc */; };
+		C67093DA1C42D0BE00D5F88C /* smartPointsList.m in Sources */ = {isa = PBXBuildFile; fileRef = C67093D91C42D0BE00D5F88C /* smartPointsList.m */; };
+		C67093DD1C42D53500D5F88C /* nocount.m in Sources */ = {isa = PBXBuildFile; fileRef = C67093DC1C42D53500D5F88C /* nocount.m */; };
+		C67093E01C42D64000D5F88C /* alcohol.m in Sources */ = {isa = PBXBuildFile; fileRef = C67093DF1C42D64000D5F88C /* alcohol.m */; };
+		C67093E31C42DA7200D5F88C /* smartPointsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C67093E21C42DA7200D5F88C /* smartPointsiPad.m */; };
+		C67093E61C42DB2E00D5F88C /* noCountiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C67093E51C42DB2E00D5F88C /* noCountiPad.m */; };
+		C67093E91C42DBE900D5F88C /* alcoholiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C67093E81C42DBE900D5F88C /* alcoholiPad.m */; };
 		C67810E319099F6900D968D5 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = C67810E119099F6900D968D5 /* Icon-76.png */; };
 		C67810E419099F6900D968D5 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = C67810E219099F6900D968D5 /* Icon-152.png */; };
 		C6852F1B18BD2F9400D14D34 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = C6852F1A18BD2F9400D14D34 /* facebook.png */; };
@@ -153,6 +163,23 @@
 		C664D61E18A6E38500C25180 /* boostersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boostersView.m; sourceTree = "<group>"; };
 		C664D62018A6E39900C25180 /* treatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treatsView.h; sourceTree = "<group>"; };
 		C664D62118A6E39900C25180 /* treatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = treatsView.m; sourceTree = "<group>"; };
+		C67093CF1C42C1EC00D5F88C /* calcSPExerPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calcSPExerPoints.m; sourceTree = "<group>"; };
+		C67093D11C42C20000D5F88C /* calcSPExerPoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcSPExerPoints.h; sourceTree = "<group>"; };
+		C67093D21C42CEED00D5F88C /* smartpointslist.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = smartpointslist.bc; path = lists/smartpointslist.bc; sourceTree = "<group>"; };
+		C67093D41C42CF2200D5F88C /* alcohol.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = alcohol.bc; path = lists/alcohol.bc; sourceTree = "<group>"; };
+		C67093D51C42CF2200D5F88C /* nocount.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nocount.bc; path = lists/nocount.bc; sourceTree = "<group>"; };
+		C67093D81C42D0A500D5F88C /* smartPointsList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smartPointsList.h; sourceTree = "<group>"; };
+		C67093D91C42D0BE00D5F88C /* smartPointsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smartPointsList.m; sourceTree = "<group>"; };
+		C67093DB1C42D52600D5F88C /* nocount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nocount.h; sourceTree = "<group>"; };
+		C67093DC1C42D53500D5F88C /* nocount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nocount.m; sourceTree = "<group>"; };
+		C67093DE1C42D63100D5F88C /* alcohol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alcohol.h; sourceTree = "<group>"; };
+		C67093DF1C42D64000D5F88C /* alcohol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alcohol.m; sourceTree = "<group>"; };
+		C67093E11C42DA6100D5F88C /* smartPointsiPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smartPointsiPad.h; sourceTree = "<group>"; };
+		C67093E21C42DA7200D5F88C /* smartPointsiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smartPointsiPad.m; sourceTree = "<group>"; };
+		C67093E41C42DB1B00D5F88C /* noCountiPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = noCountiPad.h; sourceTree = "<group>"; };
+		C67093E51C42DB2E00D5F88C /* noCountiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noCountiPad.m; sourceTree = "<group>"; };
+		C67093E71C42DBD900D5F88C /* alcoholiPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alcoholiPad.h; sourceTree = "<group>"; };
+		C67093E81C42DBE900D5F88C /* alcoholiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alcoholiPad.m; sourceTree = "<group>"; };
 		C67810E119099F6900D968D5 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "images/Icon-76.png"; sourceTree = "<group>"; };
 		C67810E219099F6900D968D5 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-152.png"; path = "images/Icon-152.png"; sourceTree = "<group>"; };
 		C6852F1A18BD2F9400D14D34 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = images/facebook.png; sourceTree = "<group>"; };
@@ -227,6 +254,8 @@
 				C63F221D18B942DB00868C7D /* calcDailyPoints.m */,
 				C6923D7F1C348909005F1E6E /* calcSmartPoints.h */,
 				C6923D801C34892C005F1E6E /* calcSmartPoints.m */,
+				C67093D11C42C20000D5F88C /* calcSPExerPoints.h */,
+				C67093CF1C42C1EC00D5F88C /* calcSPExerPoints.m */,
 			);
 			name = calculatorViews;
 			sourceTree = "<group>";
@@ -361,6 +390,9 @@
 		C664D60218A592F600C25180 /* lists */ = {
 			isa = PBXGroup;
 			children = (
+				C67093D41C42CF2200D5F88C /* alcohol.bc */,
+				C67093D51C42CF2200D5F88C /* nocount.bc */,
+				C67093D21C42CEED00D5F88C /* smartpointslist.bc */,
 				C664D60318A5930800C25180 /* boostersanddrinks.bc */,
 				C664D60418A5930800C25180 /* fillingandhealthy.bc */,
 				C664D60518A5930800C25180 /* pointslist.bc */,
@@ -388,6 +420,18 @@
 				C653652718A97E2C003ED2F1 /* boostersiPad.m */,
 				C653652918A97E8B003ED2F1 /* treatsiPad.h */,
 				C653652A18A97E8B003ED2F1 /* treatsiPad.m */,
+				C67093D81C42D0A500D5F88C /* smartPointsList.h */,
+				C67093D91C42D0BE00D5F88C /* smartPointsList.m */,
+				C67093DB1C42D52600D5F88C /* nocount.h */,
+				C67093DC1C42D53500D5F88C /* nocount.m */,
+				C67093DE1C42D63100D5F88C /* alcohol.h */,
+				C67093DF1C42D64000D5F88C /* alcohol.m */,
+				C67093E11C42DA6100D5F88C /* smartPointsiPad.h */,
+				C67093E21C42DA7200D5F88C /* smartPointsiPad.m */,
+				C67093E41C42DB1B00D5F88C /* noCountiPad.h */,
+				C67093E51C42DB2E00D5F88C /* noCountiPad.m */,
+				C67093E71C42DBD900D5F88C /* alcoholiPad.h */,
+				C67093E81C42DBE900D5F88C /* alcoholiPad.m */,
 			);
 			name = listViews;
 			sourceTree = "<group>";
@@ -490,6 +534,8 @@
 				C6496AD318A569AB00D6C3AE /* Main_iPad.storyboard in Resources */,
 				C664D5FC18A5877700C25180 /* proPointsIcon.png in Resources */,
 				C6A3960718F1D1AD00A3FB76 /* Breaking Bad.ttf in Resources */,
+				C67093D31C42CEED00D5F88C /* smartpointslist.bc in Resources */,
+				C67093D71C42CF2200D5F88C /* nocount.bc in Resources */,
 				C6496AD818A569AB00D6C3AE /* Images.xcassets in Resources */,
 				C68E16A818A970E30020649F /* TwoCelliPad.xib in Resources */,
 				C664D60818A5930800C25180 /* fillingandhealthy.bc in Resources */,
@@ -498,6 +544,7 @@
 				C67810E319099F6900D968D5 /* Icon-76.png in Resources */,
 				C664D5FE18A590CD00C25180 /* ThreeCelliPhone.xib in Resources */,
 				C67810E419099F6900D968D5 /* Icon-152.png in Resources */,
+				C67093D61C42CF2200D5F88C /* alcohol.bc in Resources */,
 				C68E16A318A96F590020649F /* ThreeCelliPad.xib in Resources */,
 				C6560CBC1C35A3410098BA3A /* Images.xcassets in Resources */,
 				C68E16AD18A971540020649F /* OneCelliPad.xib in Resources */,
@@ -540,9 +587,12 @@
 				C6496AD618A569AB00D6C3AE /* ViewController.m in Sources */,
 				C6FE64CA18B6A2DE0002E53D /* calcExerPoints.m in Sources */,
 				C607068F18A6F80F002239C6 /* aboutView.m in Sources */,
+				C67093D01C42C1EC00D5F88C /* calcSPExerPoints.m in Sources */,
 				C653652518A97A5C003ED2F1 /* fAndHiPad.m in Sources */,
 				C6496ACD18A569AB00D6C3AE /* AppDelegate.m in Sources */,
 				C664D61C18A6DE6A00C25180 /* fAndHView.m in Sources */,
+				C67093E91C42DBE900D5F88C /* alcoholiPad.m in Sources */,
+				C67093E31C42DA7200D5F88C /* smartPointsiPad.m in Sources */,
 				C6A3960A18F1D1D500A3FB76 /* breakingBadFont.m in Sources */,
 				C6496AC918A569AB00D6C3AE /* main.m in Sources */,
 				C653652818A97E2C003ED2F1 /* boostersiPad.m in Sources */,
@@ -551,7 +601,10 @@
 				C664D61518A6D33100C25180 /* TwoCelliPhone.m in Sources */,
 				C664D60118A5914C00C25180 /* ThreeCelliPhone.m in Sources */,
 				C653652218A97555003ED2F1 /* foodListiPad.m in Sources */,
+				C67093DA1C42D0BE00D5F88C /* smartPointsList.m in Sources */,
 				C63F221E18B942DB00868C7D /* calcDailyPoints.m in Sources */,
+				C67093DD1C42D53500D5F88C /* nocount.m in Sources */,
+				C67093E01C42D64000D5F88C /* alcohol.m in Sources */,
 				C664D61F18A6E38500C25180 /* boostersView.m in Sources */,
 				C636FFDC18ACCC9E007739D9 /* calcFoodPoints.m in Sources */,
 				C6FE64C718AD13FE0002E53D /* commonFunctions.m in Sources */,
@@ -559,6 +612,7 @@
 				C653652B18A97E8B003ED2F1 /* treatsiPad.m in Sources */,
 				C664D62218A6E39900C25180 /* treatsView.m in Sources */,
 				C664D60E18A6C7EA00C25180 /* foodListView.m in Sources */,
+				C67093E61C42DB2E00D5F88C /* noCountiPad.m in Sources */,
 				C6619AC018F74FFE006A261F /* stitchyTimesFont.m in Sources */,
 				C664D61818A6D34000C25180 /* OneCelliPhone.m in Sources */,
 			);

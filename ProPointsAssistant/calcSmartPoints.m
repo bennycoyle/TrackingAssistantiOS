@@ -170,7 +170,9 @@
                     if ( dValuePer > 0 && dServings > 0 ) {
                         pointsUnrounded = [self calcPoints:dCalories b:dSatFat c:dSugars d:dProtein e:dValuePer f:dServings];
                         pointsRounded = [cf roundIt:pointsUnrounded];
-                        
+                        if ( pointsRounded < 0 ) {
+                            pointsRounded = 0;
+                        }
                         NSString *pointsString = [NSString stringWithFormat:@"%d", pointsRounded];
                         [cf setPointsLabels:_smartPointsHeadingLabel points:_smartPointsLabel value:pointsString];
                     } else if ( dValuePer == 0 || dServings == 0 ) {
