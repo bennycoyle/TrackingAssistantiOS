@@ -17,5 +17,7 @@
 - (IBAction)launchSoloSoundcloud:(id)sender;
 - (IBAction)launchSoloTwitter:(id)sender;
 - (IBAction)launchSoloYoutube:(id)sender;
+- (IBAction)launchChangePlan:(id)sender;
+- (IBAction)launchHowTo:(id)sender;
 
 @end

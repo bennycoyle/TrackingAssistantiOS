@@ -112,4 +112,14 @@
         [[UIApplication sharedApplication] openURL:webUrl];
     }
 }
+
+- (IBAction)launchChangePlan:(id)sender{
+    NSURL *webUrl = [NSURL URLWithString:@"http://brendancoyle.ie/2016/01/tracking-assistant-updates/"];
+    [[UIApplication sharedApplication] openURL:webUrl];
+}
+
+- (IBAction)launchHowTo:(id)sender{
+    NSURL *webUrl = [NSURL URLWithString:@"http://brendancoyle.ie/2016/01/trackingassistant-sp-how-to/"];
+    [[UIApplication sharedApplication] openURL:webUrl];
+}
 @end
