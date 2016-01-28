@@ -72,6 +72,10 @@
 		C68E16AB18A9712D0020649F /* TwoCelliPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E16AA18A9712D0020649F /* TwoCelliPad.m */; };
 		C68E16AD18A971540020649F /* OneCelliPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E16AC18A971540020649F /* OneCelliPad.xib */; };
 		C68E16B018A971850020649F /* OneCelliPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E16AF18A971850020649F /* OneCelliPad.m */; };
+		C69145FD1C59708700077304 /* changePlan.png in Resources */ = {isa = PBXBuildFile; fileRef = C69145FB1C59708700077304 /* changePlan.png */; };
+		C69145FE1C59708700077304 /* howTo.png in Resources */ = {isa = PBXBuildFile; fileRef = C69145FC1C59708700077304 /* howTo.png */; };
+		C69146011C5AC6CB00077304 /* ChangePlan_Word.png in Resources */ = {isa = PBXBuildFile; fileRef = C69145FF1C5AC6CB00077304 /* ChangePlan_Word.png */; };
+		C69146021C5AC6CB00077304 /* HowTo_word.png in Resources */ = {isa = PBXBuildFile; fileRef = C69146001C5AC6CB00077304 /* HowTo_word.png */; };
 		C6923D811C34892C005F1E6E /* calcSmartPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = C6923D801C34892C005F1E6E /* calcSmartPoints.m */; };
 		C69306BB18BBE74C00C6AFDC /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = C69306B618BBE74C00C6AFDC /* google.png */; };
 		C69306BC18BBE74C00C6AFDC /* soundcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = C69306B718BBE74C00C6AFDC /* soundcloud.png */; };
@@ -192,6 +196,10 @@
 		C68E16AC18A971540020649F /* OneCelliPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneCelliPad.xib; sourceTree = "<group>"; };
 		C68E16AE18A971850020649F /* OneCelliPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCelliPad.h; sourceTree = "<group>"; };
 		C68E16AF18A971850020649F /* OneCelliPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCelliPad.m; sourceTree = "<group>"; };
+		C69145FB1C59708700077304 /* changePlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = changePlan.png; path = images/changePlan.png; sourceTree = "<group>"; };
+		C69145FC1C59708700077304 /* howTo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howTo.png; path = images/howTo.png; sourceTree = "<group>"; };
+		C69145FF1C5AC6CB00077304 /* ChangePlan_Word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChangePlan_Word.png; path = images/ChangePlan_Word.png; sourceTree = "<group>"; };
+		C69146001C5AC6CB00077304 /* HowTo_word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HowTo_word.png; path = images/HowTo_word.png; sourceTree = "<group>"; };
 		C6923D7F1C348909005F1E6E /* calcSmartPoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calcSmartPoints.h; sourceTree = "<group>"; };
 		C6923D801C34892C005F1E6E /* calcSmartPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calcSmartPoints.m; sourceTree = "<group>"; };
 		C69306B618BBE74C00C6AFDC /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google.png; path = images/google.png; sourceTree = "<group>"; };
@@ -318,6 +326,10 @@
 		C6496AC318A569AB00D6C3AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C69145FF1C5AC6CB00077304 /* ChangePlan_Word.png */,
+				C69146001C5AC6CB00077304 /* HowTo_word.png */,
+				C69145FB1C59708700077304 /* changePlan.png */,
+				C69145FC1C59708700077304 /* howTo.png */,
 				C67810E119099F6900D968D5 /* Icon-76.png */,
 				C67810E219099F6900D968D5 /* Icon-152.png */,
 				C65125A61905B08800F4ABD6 /* tab_calc.png */,
@@ -538,6 +550,8 @@
 				C67093D71C42CF2200D5F88C /* nocount.bc in Resources */,
 				C6496AD818A569AB00D6C3AE /* Images.xcassets in Resources */,
 				C68E16A818A970E30020649F /* TwoCelliPad.xib in Resources */,
+				C69146011C5AC6CB00077304 /* ChangePlan_Word.png in Resources */,
+				C69145FE1C59708700077304 /* howTo.png in Resources */,
 				C664D60818A5930800C25180 /* fillingandhealthy.bc in Resources */,
 				C6D45C4518A5754F00CC3711 /* Settings.bundle in Resources */,
 				C6496AD018A569AB00D6C3AE /* Main_iPhone.storyboard in Resources */,
@@ -563,7 +577,9 @@
 				C664D60918A5930800C25180 /* pointslist.bc in Resources */,
 				C6F264CF19031073009C7495 /* facebook_Word.png in Resources */,
 				C6852F1B18BD2F9400D14D34 /* facebook.png in Resources */,
+				C69146021C5AC6CB00077304 /* HowTo_word.png in Resources */,
 				C6619AC218F7501F006A261F /* StitchyTimes.ttf in Resources */,
+				C69145FD1C59708700077304 /* changePlan.png in Resources */,
 				C6A3960518EB5F9700A3FB76 /* trackingAssistantIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

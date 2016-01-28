@@ -334,12 +334,12 @@
             </objects>
             <point key="canvasLocation" x="3386" y="73"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="34f-mS-S5F">
             <objects>
                 <viewController id="par-rq-x0X" customClass="aboutView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zUl-Ka-TP6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1351"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1151"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6w7-7H-i5v">
@@ -347,11 +347,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="hXv-NB-GXZ" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="321" height="1137"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="321" height="1600"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RW8-Xb-mIW">
-                                                <rect key="frame" x="52" y="274" width="127" height="72"/>
+                                                <rect key="frame" x="52" y="549" width="127" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="youtube.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -362,7 +362,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Vr7-aB-SoX">
-                                                <rect key="frame" x="187" y="281" width="76" height="48"/>
+                                                <rect key="frame" x="187" y="556" width="76" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="soundcloud.png" backgroundImage="soundcloud.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -373,7 +373,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R7H-dT-yGK">
-                                                <rect key="frame" x="226" y="197" width="72" height="72"/>
+                                                <rect key="frame" x="226" y="472" width="72" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="twitter.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -384,7 +384,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="br5-de-ppW">
-                                                <rect key="frame" x="129" y="197" width="79" height="79"/>
+                                                <rect key="frame" x="129" y="472" width="79" height="79"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="google.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -395,7 +395,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="68m-ZR-JjN">
-                                                <rect key="frame" x="17" y="201" width="80" height="65"/>
+                                                <rect key="frame" x="17" y="476" width="80" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="facebook.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -406,14 +406,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APPLICATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9e7-GW-5sZ" userLabel="About App Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="9" y="369" width="302" height="36"/>
+                                                <rect key="frame" x="9" y="644" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bw8-oS-zkY" userLabel="About App" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="9" y="396" width="302" height="178"/>
+                                                <rect key="frame" x="9" y="671" width="302" height="178"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">This application can be used to generate points user, earned and allowed on programs such as the Weight Watchers plan. I personally use the Weight Watchers(Ireland) programme so the app is tested with this and in my testing, it has proven to be very accurate. It may work with other plans but I have not tested with others</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -421,14 +421,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APP AUTHOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fTJ-Nl-Al5" userLabel="About Author Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="13" y="20" width="288" height="29"/>
+                                                <rect key="frame" x="13" y="295" width="288" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nGQ-81-Bhq" userLabel="About Author" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="9" y="44" width="302" height="133"/>
+                                                <rect key="frame" x="9" y="319" width="302" height="133"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Brendan is a Software Engineer and a Musician from Ireland. He has been a Weight Watchers Member since January 2008 and has been a Gold Member since November 2008. If you would like to find out more information about Brendan or hear some of his music, Click the images below.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -436,7 +436,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sri-MW-lfv" userLabel="Note" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="9" y="600" width="302" height="172"/>
+                                                <rect key="frame" x="9" y="875" width="302" height="172"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">I have designed this app as it will make my day to day tracking easier. I'm putting it online so other people can use it as I find it helpful. The formula's I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all, but from what I've found, they're accurate!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -444,9 +444,40 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HXy-77-qT9" userLabel="Note Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="9" y="564" width="302" height="36"/>
+                                                <rect key="frame" x="9" y="839" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9tM-4E-qmR" userLabel="Help Heading" customClass="breakingBadFont">
+                                                <rect key="frame" x="16" y="26" width="288" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="hfj-lg-UMZ">
+                                                <rect key="frame" x="16" y="185" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="howTo.png"/>
+                                                <connections>
+                                                    <action selector="launchHowTo:" destination="par-rq-x0X" eventType="touchUpInside" id="Klf-50-4tK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vyq-2E-twv">
+                                                <rect key="frame" x="171" y="185" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="changePlan.png"/>
+                                                <connections>
+                                                    <action selector="launchChangePlan:" destination="par-rq-x0X" eventType="touchUpInside" id="cRq-zs-faS"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OVE-0X-ZiT" userLabel="Help Details" customClass="stitchyTimesFont">
+                                                <rect key="frame" x="16" y="49" width="302" height="133"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -454,7 +485,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
-                                <inset key="scrollIndicatorInsets" minX="378" minY="161" maxX="1128" maxY="636"/>
+                                <inset key="scrollIndicatorInsets" minX="378" minY="0.0" maxX="1200" maxY="0.0"/>
                                 <connections>
                                     <outlet property="delegate" destination="par-rq-x0X" id="n7k-oe-bwn"/>
                                 </connections>
@@ -462,9 +493,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About" id="cpL-HV-0A6"/>
+                    <navigationItem key="navigationItem" title="Help &amp; About" id="cpL-HV-0A6"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1400"/>
+                    <size key="freeformSize" width="320" height="1200"/>
                     <connections>
                         <outlet property="aboutContentView" destination="hXv-NB-GXZ" id="ZbI-O9-66h"/>
                         <outlet property="aboutScrollView" destination="6w7-7H-i5v" id="rYo-0i-Kxt"/>
@@ -472,134 +503,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5lv-Zf-QtU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637" y="1874"/>
-        </scene>
-        <!--SP Calculator-->
-        <scene sceneID="mv0-XR-J5X">
-            <objects>
-                <viewController id="DgV-OA-5DZ" customClass="calcSmartPoints" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="m6Y-Lj-aBb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Sugars" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="ADR-G1-MH6">
-                                <rect key="frame" x="15" y="190" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="Vpb-pH-caV"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Protein" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="AjG-Vt-PNm">
-                                <rect key="frame" x="15" y="228" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
-                                <connections>
-                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="eOz-mG-9XX"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Servings" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="c9T-tP-wq3">
-                                <rect key="frame" x="15" y="306" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="VXs-iI-3Yz"/>
-                                </connections>
-                            </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PlY-k0-T84">
-                                <rect key="frame" x="193" y="114" width="120" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Saturated Fats" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="kEH-zo-ELN">
-                                <rect key="frame" x="15" y="152" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="oE1-Xb-47v"/>
-                                </connections>
-                            </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate SP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Tx-id-lgf">
-                                <rect key="frame" x="8" y="76" width="305" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Calories" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="msA-lp-77s">
-                                <rect key="frame" x="15" y="114" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="3Ql-BT-I6d"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hrf-VT-60I">
-                                <rect key="frame" x="15" y="362" width="290" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Calculate">
-                                    <color key="titleShadowColor" red="0.63137257099999999" green="0.090196080509999998" blue="0.49411767719999999" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="calcSmartPoints:" destination="DgV-OA-5DZ" eventType="touchUpInside" id="arh-lK-KhX"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XlF-XU-gqE">
-                                <rect key="frame" x="183" y="215" width="120" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Value Per" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="qNk-Tg-Uwt">
-                                <rect key="frame" x="15" y="268" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
-                                <connections>
-                                    <outlet property="delegate" destination="DgV-OA-5DZ" id="Pt9-Rd-wDL"/>
-                                </connections>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="SP Calculator" id="ShF-tw-PY8">
-                        <barButtonItem key="rightBarButtonItem" title="PP Calc" id="8PG-n1-GDP">
-                            <connections>
-                                <segue destination="vXZ-lx-hvc" kind="push" id="Cx1-7J-1H8"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="calcSmartPointsView" destination="m6Y-Lj-aBb" id="fok-KC-hFY"/>
-                        <outlet property="caloriesField" destination="msA-lp-77s" id="RZ3-Wm-kcl"/>
-                        <outlet property="proteinField" destination="AjG-Vt-PNm" id="lEJ-h8-K4w"/>
-                        <outlet property="satFatField" destination="kEH-zo-ELN" id="0dO-0M-7Ga"/>
-                        <outlet property="servingField" destination="c9T-tP-wq3" id="RIR-pZ-xZF"/>
-                        <outlet property="smartCalcHeadingLabel" destination="5Tx-id-lgf" id="G3e-hh-0da"/>
-                        <outlet property="smartPointsHeadingLabel" destination="XlF-XU-gqE" id="mlp-Ii-Wfj"/>
-                        <outlet property="smartPointsLabel" destination="PlY-k0-T84" id="fRf-Gm-zid"/>
-                        <outlet property="sugarsField" destination="ADR-G1-MH6" id="bez-Ki-yWp"/>
-                        <outlet property="valuePerField" destination="qNk-Tg-Uwt" id="xCO-mX-ivY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lXB-Zz-SXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1637" y="73"/>
+            <point key="canvasLocation" x="1637" y="1968"/>
         </scene>
         <!--PP Calculator-->
         <scene sceneID="UYa-QF-WYp">
@@ -836,24 +740,24 @@
             </objects>
             <point key="canvasLocation" x="3335" y="4087"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="Bni-Xz-CbT">
             <objects>
                 <viewController id="dWG-Oa-ybm" customClass="aboutView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="utq-yf-lxh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1451"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1151"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="LpV-WG-lP0">
-                                <rect key="frame" x="-28" y="0.0" width="378" height="1144"/>
+                                <rect key="frame" x="0.0" y="0.0" width="378" height="1200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="wh7-4H-uEd" userLabel="contentView">
-                                        <rect key="frame" x="27" y="0.0" width="324" height="1083"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="324" height="1600"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ivj-cx-LAy">
-                                                <rect key="frame" x="54" y="274" width="127" height="72"/>
+                                                <rect key="frame" x="54" y="545" width="127" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="youtube.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -864,7 +768,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BJ1-0j-rTh" userLabel="About Author" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="11" y="44" width="302" height="133"/>
+                                                <rect key="frame" x="11" y="315" width="302" height="133"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Brendan is a Software Engineer and a Musician from Ireland. He has been a Weight Watchers Member since January 2008 and has been a Gold Member since November 2008. If you would like to find out more information about Brendan or hear some of his music, Click the images below.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -872,7 +776,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DnF-00-uPg">
-                                                <rect key="frame" x="131" y="197" width="79" height="79"/>
+                                                <rect key="frame" x="131" y="468" width="79" height="79"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="google.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -883,7 +787,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZNG-4q-LVx">
-                                                <rect key="frame" x="19" y="201" width="80" height="65"/>
+                                                <rect key="frame" x="19" y="472" width="80" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="facebook.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -894,14 +798,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APPLICATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dXI-kj-rrz" userLabel="About App Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="11" y="369" width="302" height="36"/>
+                                                <rect key="frame" x="11" y="640" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1aY-Qe-NLP">
-                                                <rect key="frame" x="189" y="281" width="76" height="48"/>
+                                                <rect key="frame" x="189" y="552" width="76" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="soundcloud.png" backgroundImage="soundcloud.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -912,14 +816,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APP AUTHOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="24M-6C-OBi" userLabel="About Author Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="15" y="20" width="288" height="29"/>
+                                                <rect key="frame" x="15" y="291" width="288" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Vss-bB-VGN">
-                                                <rect key="frame" x="228" y="197" width="72" height="72"/>
+                                                <rect key="frame" x="228" y="468" width="72" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="twitter.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -930,14 +834,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ibu-Mz-KMx" userLabel="Note Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="11" y="582" width="302" height="36"/>
+                                                <rect key="frame" x="11" y="853" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tUP-SH-lXs" userLabel="Note" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="11" y="618" width="302" height="169"/>
+                                                <rect key="frame" x="11" y="889" width="302" height="169"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">I have designed this app as it will make my day to day tracking easier. I'm putting it online so other people can use it as I find it helpful. The formula's I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all, but from what I've found, they're accurate!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -945,9 +849,40 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AIn-h1-vgv" userLabel="About App" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="11" y="396" width="302" height="178"/>
+                                                <rect key="frame" x="11" y="667" width="302" height="178"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">This application can be used to generate points user, earned and allowed on programs such as the Weight Watchers plan. I personally use the Weight Watchers(Ireland) programme so the app is tested with this and in my testing, it has proven to be very accurate. It may work with other plans but I have not tested with others</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="r9K-dd-4e3">
+                                                <rect key="frame" x="14" y="176" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="howTo.png"/>
+                                                <connections>
+                                                    <action selector="launchHowTo:" destination="dWG-Oa-ybm" eventType="touchUpInside" id="nVL-k7-qKx"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZZQ-83-bfH" userLabel="Help Heading" customClass="breakingBadFont">
+                                                <rect key="frame" x="14" y="17" width="288" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="p8y-JU-X1I">
+                                                <rect key="frame" x="169" y="176" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="changePlan.png"/>
+                                                <connections>
+                                                    <action selector="launchChangePlan:" destination="dWG-Oa-ybm" eventType="touchUpInside" id="QnW-11-YqQ"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xrW-lg-VoY" userLabel="Help Details" customClass="stitchyTimesFont">
+                                                <rect key="frame" x="14" y="40" width="302" height="133"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -963,9 +898,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About" id="R1k-Cc-tjA"/>
+                    <navigationItem key="navigationItem" title="Help &amp; About" id="R1k-Cc-tjA"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1500"/>
+                    <size key="freeformSize" width="320" height="1200"/>
                     <connections>
                         <outlet property="aboutContentView" destination="wh7-4H-uEd" id="sZw-Rl-tzV"/>
                         <outlet property="aboutScrollView" destination="LpV-WG-lP0" id="ggz-HC-t3L"/>
@@ -1170,7 +1105,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="DgV-OA-5DZ" kind="relationship" relationship="rootViewController" id="I8h-pJ-eWf"/>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="adT-Gh-6ue"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g2f-KO-BiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1241,140 +1176,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="9Ue-oS-RQU" kind="relationship" relationship="rootViewController" id="bYX-Bq-gyb"/>
+                        <segue destination="UC3-Oy-H2M" kind="relationship" relationship="rootViewController" id="fmH-IU-YeL"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JmA-7f-zYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1087" y="3246"/>
-        </scene>
-        <!--SP Calculator-->
-        <scene sceneID="NpV-PR-6Kq">
-            <objects>
-                <viewController id="9Ue-oS-RQU" customClass="calcSmartPoints" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4IE-KB-1NQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Value Per" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="On9-BI-Soz">
-                                <rect key="frame" x="15" y="272" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
-                                <connections>
-                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="bUH-K0-9ls"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Saturated Fats" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="IC4-yd-sjW">
-                                <rect key="frame" x="15" y="156" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="fLq-gz-QaZ"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Protein" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="QcB-sZ-aRL">
-                                <rect key="frame" x="15" y="232" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <accessibility key="accessibilityConfiguration" hint="Enter Info"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
-                                <connections>
-                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="Hum-xD-YYg"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Servings" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="3zt-No-olC">
-                                <rect key="frame" x="15" y="310" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="qZT-io-kya"/>
-                                </connections>
-                            </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kU9-Q4-4vw">
-                                <rect key="frame" x="183" y="219" width="120" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Calories" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="DCC-vJ-1KT">
-                                <rect key="frame" x="15" y="118" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="qfO-es-wRv"/>
-                                </connections>
-                            </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oWI-YI-lO8">
-                                <rect key="frame" x="193" y="118" width="120" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Sugars" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="3Ob-1O-s4X">
-                                <rect key="frame" x="15" y="194" width="160" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <outlet property="delegate" destination="9Ue-oS-RQU" id="Mr5-nu-IQ6"/>
-                                </connections>
-                            </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate SP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0hF-HZ-XHA">
-                                <rect key="frame" x="8" y="80" width="305" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Ci-y0-XBh">
-                                <rect key="frame" x="15" y="366" width="290" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Calculate">
-                                    <color key="titleShadowColor" red="0.63137257099999999" green="0.090196080509999998" blue="0.49411767719999999" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="calcSmartPoints:" destination="DgV-OA-5DZ" eventType="touchUpInside" id="PfL-FL-1rI"/>
-                                    <action selector="calcSmartPoints:" destination="9Ue-oS-RQU" eventType="touchUpInside" id="pLa-XT-ShK"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="SP Calculator" id="rXu-39-EhH">
-                        <barButtonItem key="rightBarButtonItem" title="PP Calc" id="g72-kb-OrP">
-                            <connections>
-                                <segue destination="UC3-Oy-H2M" kind="push" id="g4k-mw-dK0"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="calcSmartPointsView" destination="4IE-KB-1NQ" id="ofn-Da-iJG"/>
-                        <outlet property="caloriesField" destination="DCC-vJ-1KT" id="Dsu-Ij-vVL"/>
-                        <outlet property="proteinField" destination="QcB-sZ-aRL" id="0BZ-GZ-ILg"/>
-                        <outlet property="satFatField" destination="IC4-yd-sjW" id="znP-U3-WiC"/>
-                        <outlet property="servingField" destination="3zt-No-olC" id="rX4-hr-mow"/>
-                        <outlet property="smartCalcHeadingLabel" destination="0hF-HZ-XHA" id="6YX-BM-I8G"/>
-                        <outlet property="smartPointsHeadingLabel" destination="kU9-Q4-4vw" id="tcy-2b-3B9"/>
-                        <outlet property="smartPointsLabel" destination="oWI-YI-lO8" id="s7r-kw-KYV"/>
-                        <outlet property="sugarsField" destination="3Ob-1O-s4X" id="lP6-mH-rjb"/>
-                        <outlet property="valuePerField" destination="On9-BI-Soz" id="TOY-p7-Vlb"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u7f-yj-LEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1637" y="3246"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="k4I-al-B2A">
@@ -1415,11 +1222,11 @@
             </objects>
             <point key="canvasLocation" x="1087" y="830"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="MUi-8b-Gmq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="71a-pd-dWr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About" id="9ev-qh-1M1"/>
+                    <tabBarItem key="tabBarItem" title="Help &amp; About" id="9ev-qh-1M1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TnE-RJ-dVw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1559,11 +1366,11 @@
             </objects>
             <point key="canvasLocation" x="1087" y="4087"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="aMO-1A-4Jq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TQm-Ar-CW7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About" id="Tpb-3E-J7p"/>
+                    <tabBarItem key="tabBarItem" title="Help &amp; About" id="Tpb-3E-J7p"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4cR-rZ-Esj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1676,12 +1483,12 @@
             </objects>
             <point key="canvasLocation" x="2157" y="6537"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="12V-Js-S4E">
             <objects>
                 <viewController id="H1P-2l-fIT" customClass="aboutView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O3o-5z-krH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1351"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1151"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="adz-kl-2RD">
@@ -1689,11 +1496,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="jG5-qR-ZWo" userLabel="contentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="321" height="1137"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="321" height="1600"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VIN-3u-zL6">
-                                                <rect key="frame" x="52" y="274" width="127" height="72"/>
+                                                <rect key="frame" x="52" y="526" width="127" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="youtube.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1704,7 +1511,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Hbc-ys-1a6">
-                                                <rect key="frame" x="187" y="281" width="76" height="48"/>
+                                                <rect key="frame" x="187" y="533" width="76" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="soundcloud.png" backgroundImage="soundcloud.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1715,7 +1522,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yZq-FM-yPt">
-                                                <rect key="frame" x="226" y="197" width="72" height="72"/>
+                                                <rect key="frame" x="226" y="449" width="72" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="twitter.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1726,7 +1533,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DHW-ve-qJr">
-                                                <rect key="frame" x="129" y="197" width="79" height="79"/>
+                                                <rect key="frame" x="129" y="449" width="79" height="79"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="google.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1737,7 +1544,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zmm-Of-SRZ">
-                                                <rect key="frame" x="17" y="201" width="80" height="65"/>
+                                                <rect key="frame" x="17" y="453" width="80" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="facebook.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1748,14 +1555,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APPLICATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PHU-tN-yX5" userLabel="About App Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="9" y="369" width="302" height="36"/>
+                                                <rect key="frame" x="9" y="621" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="94w-Dc-5LP" userLabel="About App" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="9" y="396" width="302" height="178"/>
+                                                <rect key="frame" x="9" y="648" width="302" height="178"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">This application can be used to generate points user, earned and allowed on programs such as the Weight Watchers plan. I personally use the Weight Watchers(Ireland) programme so the app is tested with this and in my testing, it has proven to be very accurate. It may work with other plans but I have not tested with others</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -1763,14 +1570,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APP AUTHOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Upr-6r-eyh" userLabel="About Author Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="13" y="20" width="288" height="29"/>
+                                                <rect key="frame" x="13" y="272" width="288" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vz5-rA-m5B" userLabel="About Author" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="9" y="44" width="302" height="133"/>
+                                                <rect key="frame" x="9" y="296" width="302" height="133"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Brendan is a Software Engineer and a Musician from Ireland. He has been a Weight Watchers Member since January 2008 and has been a Gold Member since November 2008. If you would like to find out more information about Brendan or hear some of his music, Click the images below.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -1778,7 +1585,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bOh-3T-JS5" userLabel="Note" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="9" y="600" width="302" height="172"/>
+                                                <rect key="frame" x="9" y="852" width="302" height="172"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">I have designed this app as it will make my day to day tracking easier. I'm putting it online so other people can use it as I find it helpful. The formula's I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all, but from what I've found, they're accurate!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -1786,9 +1593,40 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ywx-EU-3BD" userLabel="Note Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="9" y="564" width="302" height="36"/>
+                                                <rect key="frame" x="9" y="816" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="gtf-ED-wKC">
+                                                <rect key="frame" x="11" y="175" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="howTo.png"/>
+                                                <connections>
+                                                    <action selector="launchHowTo:" destination="H1P-2l-fIT" eventType="touchUpInside" id="f2x-28-UMD"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="23S-ln-6sf" userLabel="Help Heading" customClass="breakingBadFont">
+                                                <rect key="frame" x="11" y="16" width="288" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="44Q-ls-g3M">
+                                                <rect key="frame" x="166" y="175" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="changePlan.png"/>
+                                                <connections>
+                                                    <action selector="launchChangePlan:" destination="H1P-2l-fIT" eventType="touchUpInside" id="Enz-zU-aGt"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pxb-FO-Kfr" userLabel="Help Details" customClass="stitchyTimesFont">
+                                                <rect key="frame" x="11" y="39" width="302" height="133"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1796,7 +1634,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
-                                <inset key="scrollIndicatorInsets" minX="378" minY="161" maxX="1128" maxY="636"/>
+                                <inset key="scrollIndicatorInsets" minX="378" minY="0.0" maxX="1200" maxY="0.0"/>
                                 <connections>
                                     <outlet property="delegate" destination="H1P-2l-fIT" id="m5U-Qc-gVt"/>
                                 </connections>
@@ -1804,9 +1642,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About" id="NBE-Dl-mwX"/>
+                    <navigationItem key="navigationItem" title="Help &amp; About" id="NBE-Dl-mwX"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1400"/>
+                    <size key="freeformSize" width="320" height="1200"/>
                     <connections>
                         <outlet property="aboutContentView" destination="jG5-qR-ZWo" id="KpH-cp-jDk"/>
                         <outlet property="aboutScrollView" destination="adz-kl-2RD" id="gT5-RQ-s9i"/>
@@ -2033,24 +1871,24 @@
             </objects>
             <point key="canvasLocation" x="2752" y="10711"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="3Bn-MR-UwT">
             <objects>
                 <viewController id="fZa-pA-ujv" customClass="aboutView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="knC-aM-J8h">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1451"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1151"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GLX-hE-K3o">
-                                <rect key="frame" x="-28" y="0.0" width="378" height="1144"/>
+                                <rect key="frame" x="0.0" y="0.0" width="378" height="1200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="dhb-nc-C51" userLabel="contentView">
-                                        <rect key="frame" x="27" y="0.0" width="324" height="1083"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="324" height="1600"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HzD-A3-ahV">
-                                                <rect key="frame" x="54" y="274" width="127" height="72"/>
+                                                <rect key="frame" x="54" y="494" width="127" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="youtube.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2061,7 +1899,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AE7-3H-EVN" userLabel="About Author" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="11" y="44" width="302" height="133"/>
+                                                <rect key="frame" x="11" y="264" width="302" height="133"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Brendan is a Software Engineer and a Musician from Ireland. He has been a Weight Watchers Member since January 2008 and has been a Gold Member since November 2008. If you would like to find out more information about Brendan or hear some of his music, Click the images below.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -2069,7 +1907,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mqg-tK-xzg">
-                                                <rect key="frame" x="131" y="197" width="79" height="79"/>
+                                                <rect key="frame" x="131" y="417" width="79" height="79"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="google.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2080,7 +1918,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iwd-ZZ-Jwd">
-                                                <rect key="frame" x="19" y="201" width="80" height="65"/>
+                                                <rect key="frame" x="19" y="421" width="80" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="facebook.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2091,14 +1929,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APPLICATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iVC-6x-szh" userLabel="About App Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="11" y="369" width="302" height="36"/>
+                                                <rect key="frame" x="11" y="589" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0bc-Nz-d0c">
-                                                <rect key="frame" x="189" y="281" width="76" height="48"/>
+                                                <rect key="frame" x="189" y="501" width="76" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="soundcloud.png" backgroundImage="soundcloud.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2109,14 +1947,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APP AUTHOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iQE-pS-iTa" userLabel="About Author Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="15" y="20" width="288" height="29"/>
+                                                <rect key="frame" x="15" y="240" width="288" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ufO-iz-feK">
-                                                <rect key="frame" x="228" y="197" width="72" height="72"/>
+                                                <rect key="frame" x="228" y="417" width="72" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="twitter.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2127,14 +1965,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTE!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vag-ET-Epb" userLabel="Note Heading" customClass="breakingBadFont">
-                                                <rect key="frame" x="11" y="582" width="302" height="36"/>
+                                                <rect key="frame" x="11" y="802" width="302" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m2w-Zy-hIb" userLabel="Note" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="11" y="618" width="302" height="169"/>
+                                                <rect key="frame" x="11" y="838" width="302" height="169"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">I have designed this app as it will make my day to day tracking easier. I'm putting it online so other people can use it as I find it helpful. The formula's I have used for getting values are from searching websites looking for them. I cannot guarantee they are 100% accurate as it would take too much time to test all, but from what I've found, they're accurate!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -2142,9 +1980,40 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4mW-OK-sL8" userLabel="About App" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="11" y="396" width="302" height="178"/>
+                                                <rect key="frame" x="11" y="616" width="302" height="178"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">This application can be used to generate points user, earned and allowed on programs such as the Weight Watchers plan. I personally use the Weight Watchers(Ireland) programme so the app is tested with this and in my testing, it has proven to be very accurate. It may work with other plans but I have not tested with others</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="L2M-uv-KMW">
+                                                <rect key="frame" x="15" y="167" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="howTo.png"/>
+                                                <connections>
+                                                    <action selector="launchHowTo:" destination="fZa-pA-ujv" eventType="touchUpInside" id="cm0-jM-y2l"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X3c-WU-SSq" userLabel="Help Heading" customClass="breakingBadFont">
+                                                <rect key="frame" x="15" y="8" width="288" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KxI-ki-Mws">
+                                                <rect key="frame" x="170" y="167" width="127" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="changePlan.png"/>
+                                                <connections>
+                                                    <action selector="launchChangePlan:" destination="fZa-pA-ujv" eventType="touchUpInside" id="HpF-2l-vOc"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q6b-2w-K6V" userLabel="Help Details" customClass="stitchyTimesFont">
+                                                <rect key="frame" x="15" y="31" width="302" height="133"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -2160,9 +2029,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About" id="Wyw-Zn-OIz"/>
+                    <navigationItem key="navigationItem" title="Help &amp; About" id="Wyw-Zn-OIz"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="1500"/>
+                    <size key="freeformSize" width="320" height="1200"/>
                     <connections>
                         <outlet property="aboutContentView" destination="dhb-nc-C51" id="MQM-FR-lqm"/>
                         <outlet property="aboutScrollView" destination="GLX-hE-K3o" id="f4F-5y-wq6"/>
@@ -2170,7 +2039,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQH-7R-DRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632" y="11868"/>
+            <point key="canvasLocation" x="1646" y="11882"/>
         </scene>
         <!--Exercise-->
         <scene sceneID="aEi-MJ-fWK">
@@ -2512,11 +2381,11 @@
             </objects>
             <point key="canvasLocation" x="1087" y="7294"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="Oz2-oP-UDE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xWJ-gP-PMB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About" id="xPF-e7-qdS"/>
+                    <tabBarItem key="tabBarItem" title="Help &amp; About" id="xPF-e7-qdS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mGx-2k-Ysh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2608,11 +2477,11 @@
             </objects>
             <point key="canvasLocation" x="1087" y="10711"/>
         </scene>
-        <!--About-->
+        <!--Help & About-->
         <scene sceneID="aJa-Rh-vQj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oTO-gq-QgK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About" id="uHU-yj-o1V"/>
+                    <tabBarItem key="tabBarItem" title="Help &amp; About" id="uHU-yj-o1V"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="175-ld-uOb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2634,8 +2503,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="changePlan.png" width="127" height="72"/>
         <image name="facebook.png" width="58" height="58"/>
         <image name="google.png" width="72" height="72"/>
+        <image name="howTo.png" width="127" height="72"/>
         <image name="soundcloud.png" width="76" height="48"/>
         <image name="twitter.png" width="72" height="72"/>
         <image name="youtube.png" width="72" height="72"/>
