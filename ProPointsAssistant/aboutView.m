@@ -62,10 +62,10 @@
     NSURL *appUrl = [NSURL URLWithString:@"fb://profile/592183144144809"];
     NSURL *webUrl = [NSURL URLWithString:@"http://www.facebook.com/brendancoylemusic"];
     if ([[UIApplication sharedApplication] canOpenURL:appUrl]){
-        [[UIApplication sharedApplication] openURL:appUrl];
+        [[UIApplication sharedApplication] openURL:appUrl options:@{} completionHandler:nil];
     }
     else {
-        [[UIApplication sharedApplication] openURL:webUrl];
+        [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
     }
 }
 
@@ -73,10 +73,10 @@
     NSURL *appUrl = [NSURL URLWithString:@"gplus://plus.google.com/+BrendanCoyleMusic"];
     NSURL *webUrl = [NSURL URLWithString:@"http://plus.google.com/+BrendanCoyleMusic"];
     if ([[UIApplication sharedApplication] canOpenURL:appUrl]){
-        [[UIApplication sharedApplication] openURL:appUrl];
+        [[UIApplication sharedApplication] openURL:appUrl options:@{} completionHandler:nil];
     }
     else {
-        [[UIApplication sharedApplication] openURL:webUrl];
+        [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
     }
 }
 
@@ -84,10 +84,10 @@
     NSURL *appUrl = [NSURL URLWithString:@"soundcloud:user:bennycoyle"];
     NSURL *webUrl = [NSURL URLWithString:@"http://www.soundcloud.com/bennycoyle"];
     if ([[UIApplication sharedApplication] canOpenURL:webUrl]){
-        [[UIApplication sharedApplication] openURL:webUrl];
+        [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
     }
     else {
-        [[UIApplication sharedApplication] openURL:webUrl];
+        [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
     }
 }
 
@@ -95,10 +95,10 @@
     NSURL *appUrl = [NSURL URLWithString:@"twitter://user?screen_name=bennycoyle"];
     NSURL *webUrl = [NSURL URLWithString:@"http://www.twitter.com/bennycoyle"];
     if ([[UIApplication sharedApplication] canOpenURL:appUrl]){
-        [[UIApplication sharedApplication] openURL:appUrl];
+        [[UIApplication sharedApplication] openURL:appUrl options:@{} completionHandler:nil];
     }
     else {
-        [[UIApplication sharedApplication] openURL:webUrl];
+        [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
     }
 }
 
@@ -106,20 +106,20 @@
     NSURL *appUrl = [NSURL URLWithString:@"youtube://user/brendanmjcoyle"];
     NSURL *webUrl = [NSURL URLWithString:@"http://www.youtube.com/user/brendanmjcoyle"];
     if ([[UIApplication sharedApplication] canOpenURL:appUrl]){
-        [[UIApplication sharedApplication] openURL:appUrl];
+        [[UIApplication sharedApplication] openURL:appUrl options:@{} completionHandler:nil];
     }
     else {
-        [[UIApplication sharedApplication] openURL:webUrl];
+        [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
     }
 }
 
 - (IBAction)launchChangePlan:(id)sender{
     NSURL *webUrl = [NSURL URLWithString:@"http://brendancoyle.ie/2016/01/tracking-assistant-updates/"];
-    [[UIApplication sharedApplication] openURL:webUrl];
+    [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
 }
 
 - (IBAction)launchHowTo:(id)sender{
     NSURL *webUrl = [NSURL URLWithString:@"http://brendancoyle.ie/2016/01/trackingassistant-sp-how-to/"];
-    [[UIApplication sharedApplication] openURL:webUrl];
+    [[UIApplication sharedApplication] openURL:webUrl options:@{} completionHandler:nil];
 }
 @end

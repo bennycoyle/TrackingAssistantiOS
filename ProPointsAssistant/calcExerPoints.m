@@ -58,7 +58,7 @@
         
         //Create the Close Keyboard Button
         UIBarButtonItem *closeKButton = [[UIBarButtonItem alloc] initWithTitle:@"Close Keyboard"
-                                                                         style:UIBarButtonItemStyleBordered
+                                                                         style:UIBarButtonItemStylePlain
                                                                         target:self
                                                                         action:@selector(closeKeyboard:)];
         
