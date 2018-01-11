@@ -30,26 +30,6 @@
 				<string>LBs</string>
 			</array>
 		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>Title</key>
-			<string>Select Plan</string>
-			<key>Key</key>
-			<string>plan</string>
-			<key>DefaultValue</key>
-			<string>SmartPoints</string>
-			<key>Titles</key>
-			<array>
-				<string>SmartPoints</string>
-				<string>ProPoints</string>
-			</array>
-			<key>Values</key>
-			<array>
-				<string>SmartPoints</string>
-				<string>ProPoints</string>
-			</array>
-		</dict>
 	</array>
 	<key>StringsTable</key>
 	<string>Root</string>

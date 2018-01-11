@@ -18,16 +18,17 @@
 {
     // Override point for customization after application launch.
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    if( ! [defaults objectForKey:@"plan"]) {
-        [defaults setObject:@"SmartPoints" forKey:@"plan"];
-    }
+    //if( ! [defaults objectForKey:@"plan"]) {
+    //    [defaults setObject:@"SmartPoints" forKey:@"plan"];
+    //}
     if( ! [defaults objectForKey:@"measurement"]) {
         [defaults setObject:@"LBs" forKey:@"measurement"];
     }
     //UIViewController *viewController;
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
 
-    plan = [defaults objectForKey:@"plan"];
+    //plan = [defaults objectForKey:@"plan"];
+    plan = @"SmartPoints";
     measurement = [defaults objectForKey:@"measurement"];
     
     #define IDIOM    UI_USER_INTERFACE_IDIOM()
