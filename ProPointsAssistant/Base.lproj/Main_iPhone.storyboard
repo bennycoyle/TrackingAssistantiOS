@@ -1660,7 +1660,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gtf-ED-wKC">
-                                                <rect key="frame" x="11" y="175" width="127" height="72"/>
+                                                <rect key="frame" x="91" y="120" width="127" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="howTo.png"/>
                                                 <connections>
@@ -1674,18 +1674,9 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44Q-ls-g3M">
-                                                <rect key="frame" x="166" y="175" width="127" height="72"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For a quick guide on how to use the SP Caculator, Click on the &quot;How To!&quot; button below. " lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxb-FO-Kfr" userLabel="Help Details" customClass="stitchyTimesFont">
+                                                <rect key="frame" x="11" y="43" width="302" height="69"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="changePlan.png"/>
-                                                <connections>
-                                                    <action selector="launchChangePlan:" destination="H1P-2l-fIT" eventType="touchUpInside" id="Enz-zU-aGt"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxb-FO-Kfr" userLabel="Help Details" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="11" y="39" width="302" height="133"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -2145,7 +2136,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="L2M-uv-KMW">
-                                                <rect key="frame" x="15" y="167" width="127" height="72"/>
+                                                <rect key="frame" x="93" y="106" width="127" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="howTo.png"/>
                                                 <connections>
@@ -2159,18 +2150,9 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxI-ki-Mws">
-                                                <rect key="frame" x="170" y="167" width="127" height="72"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For a quick guide on how to use the SP Caculator, Click on the &quot;How To!&quot; button below." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6b-2w-K6V" userLabel="Help Details" customClass="stitchyTimesFont">
+                                                <rect key="frame" x="15" y="31" width="302" height="63"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="changePlan.png"/>
-                                                <connections>
-                                                    <action selector="launchChangePlan:" destination="fZa-pA-ujv" eventType="touchUpInside" id="HpF-2l-vOc"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6b-2w-K6V" userLabel="Help Details" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="15" y="31" width="302" height="133"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>

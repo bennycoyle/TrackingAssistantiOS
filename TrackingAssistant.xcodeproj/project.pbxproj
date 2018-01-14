@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3BB485200BF0F500B7909F /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3BB482200BF0F500B7909F /* Icon-120.png */; };
+		7E3BB486200BF0F500B7909F /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3BB483200BF0F500B7909F /* Icon-1024.png */; };
+		7E3BB487200BF0F500B7909F /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3BB484200BF0F500B7909F /* Icon-167.png */; };
 		7E4831B62002B055008C1E99 /* zeroPointsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4831B52002B055008C1E99 /* zeroPointsView.m */; };
 		7E4831B82002B306008C1E99 /* zeropoint.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E4831B72002B306008C1E99 /* zeropoint.bc */; };
 		7E4831BB2002BBD6008C1E99 /* smartpointslist.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E4831BA2002BBD6008C1E99 /* smartpointslist.bc */; };
@@ -105,6 +108,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3BB482200BF0F500B7909F /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "images/Icon-120.png"; sourceTree = "<group>"; };
+		7E3BB483200BF0F500B7909F /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1024.png"; path = "images/Icon-1024.png"; sourceTree = "<group>"; };
+		7E3BB484200BF0F500B7909F /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-167.png"; path = "images/Icon-167.png"; sourceTree = "<group>"; };
 		7E4831B42002B037008C1E99 /* zeroPointsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zeroPointsView.h; sourceTree = "<group>"; };
 		7E4831B52002B055008C1E99 /* zeroPointsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zeroPointsView.m; sourceTree = "<group>"; };
 		7E4831B72002B306008C1E99 /* zeropoint.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = zeropoint.bc; path = lists/zeropoint.bc; sourceTree = "<group>"; };
@@ -337,6 +343,9 @@
 		C6496AC318A569AB00D6C3AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E3BB482200BF0F500B7909F /* Icon-120.png */,
+				7E3BB484200BF0F500B7909F /* Icon-167.png */,
+				7E3BB483200BF0F500B7909F /* Icon-1024.png */,
 				C69145FF1C5AC6CB00077304 /* ChangePlan_Word.png */,
 				C69146001C5AC6CB00077304 /* HowTo_word.png */,
 				C69145FB1C59708700077304 /* changePlan.png */,
@@ -568,6 +577,7 @@
 				C69146011C5AC6CB00077304 /* ChangePlan_Word.png in Resources */,
 				C69145FE1C59708700077304 /* howTo.png in Resources */,
 				C664D60818A5930800C25180 /* fillingandhealthy.bc in Resources */,
+				7E3BB485200BF0F500B7909F /* Icon-120.png in Resources */,
 				C6D45C4518A5754F00CC3711 /* Settings.bundle in Resources */,
 				C6496AD018A569AB00D6C3AE /* Main_iPhone.storyboard in Resources */,
 				C67810E319099F6900D968D5 /* Icon-76.png in Resources */,
@@ -581,6 +591,7 @@
 				C69306BE18BBE74C00C6AFDC /* youtube.png in Resources */,
 				C664D61218A6D31100C25180 /* OneCelliPhone.xib in Resources */,
 				C664D60718A5930800C25180 /* boostersanddrinks.bc in Resources */,
+				7E3BB486200BF0F500B7909F /* Icon-1024.png in Resources */,
 				C69306BD18BBE74C00C6AFDC /* twitter.png in Resources */,
 				C6496AC718A569AB00D6C3AE /* InfoPlist.strings in Resources */,
 				7E4831B82002B306008C1E99 /* zeropoint.bc in Resources */,
@@ -599,6 +610,7 @@
 				7E4831BD2002BC3A008C1E99 /* alcohol.bc in Resources */,
 				C6A3960518EB5F9700A3FB76 /* trackingAssistantIcon.png in Resources */,
 				7E4831BB2002BBD6008C1E99 /* smartpointslist.bc in Resources */,
+				7E3BB487200BF0F500B7909F /* Icon-167.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

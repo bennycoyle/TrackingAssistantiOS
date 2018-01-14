@@ -2046,24 +2046,15 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j3S-8m-Rn3" userLabel="Help Details" customClass="stitchyTimesFont">
-                                                <rect key="frame" x="10" y="57" width="738" height="82"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="For a quick guide on how to use the SP Caculator, Click on the &quot;How To!&quot; button below. " lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j3S-8m-Rn3" userLabel="Help Details" customClass="stitchyTimesFont">
+                                                <rect key="frame" x="26" y="57" width="738" height="82"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LJN-CO-3nR">
-                                                <rect key="frame" x="379" y="150" width="376" height="108"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="ChangePlan_Word.png"/>
-                                                <connections>
-                                                    <action selector="launchChangePlan:" destination="Niz-KX-18U" eventType="touchUpInside" id="Yaq-s8-Rr0"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fN6-7t-vFc">
-                                                <rect key="frame" x="10" y="144" width="376" height="108"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fN6-7t-vFc">
+                                                <rect key="frame" x="187" y="144" width="376" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="HowTo_word.png"/>
                                                 <connections>
@@ -2465,24 +2456,15 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vfC-lX-26r" userLabel="Help Details" customClass="stitchyTimesFont">
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For a quick guide on how to use the SP Caculator, Click on the &quot;How To!&quot; button below." lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vfC-lX-26r" userLabel="Help Details" customClass="stitchyTimesFont">
                                                 <rect key="frame" x="15" y="59" width="738" height="82"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">For a quick guide on how to use the SP Caculator, Click on the "How To!" button below. Also if you want to switch back to the PP Plan, Click on "Change Plan!" below to see steps on how to do this! (The how to for SP works the same on PP)</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ixB-eB-iHB">
-                                                <rect key="frame" x="384" y="152" width="376" height="108"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="ChangePlan_Word.png"/>
-                                                <connections>
-                                                    <action selector="launchChangePlan:" destination="BSY-QU-ay7" eventType="touchUpInside" id="V2A-ZF-jeA"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="N30-te-SJZ">
-                                                <rect key="frame" x="15" y="146" width="376" height="108"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="N30-te-SJZ">
+                                                <rect key="frame" x="194" y="146" width="376" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="HowTo_word.png"/>
                                                 <connections>
