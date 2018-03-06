@@ -184,6 +184,10 @@
     }
 }
 
+- (void) showFieldHelp:(id)sender {
+    [cf notifyUsers:@"HELP" msg:@"VALUE PER and Servings Fields\r\n\r\nWorking with Grams/Mls\r\nIf the nutritional content on the pack reads Value Per 100g/ml but you want to have 175g/ml, Then you would enter 100 in the Value Per Field and then Enter 175 in the Servings Field.\r\n\r\nWorking with Portions\r\nIf the nutritional content on the pack reads Value per 1 Serving but you want to have 2 Servings, then you would enter in 1 for the Value Per Field and 2 in the Servings Field"];
+}
+
 - (double) getValuePer {
     double valuePerReturn = -0.0099009900;
     if ( [_valuePerField.text length] == 0 || [_valuePerField.text isEqualToString:@"."] ) {

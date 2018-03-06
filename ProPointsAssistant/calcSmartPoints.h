@@ -25,6 +25,7 @@
 
 @property (nonatomic, retain) UIToolbar *closeKeyboardButton;
 - (IBAction)calcSmartPoints:(id)sender;
+- (IBAction)showFieldHelp:(id)sender;
 
 - (void) closeKeyboard:(id) sender;
 

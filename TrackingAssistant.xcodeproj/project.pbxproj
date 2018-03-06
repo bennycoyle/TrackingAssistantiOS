@@ -16,6 +16,7 @@
 		7E4831BD2002BC3A008C1E99 /* alcohol.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E4831BC2002BC3A008C1E99 /* alcohol.bc */; };
 		7E7322E72007F0C200CA6F69 /* zeroPointsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7322E62007F0C200CA6F69 /* zeroPointsiPad.m */; };
 		7E7921B91FF0444B00E3B1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7921B81FF0444B00E3B1E5 /* LaunchScreen.storyboard */; };
+		7E8EB0DB20322EDC00EC1995 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8EB0DA20322EDC00EC1995 /* help.png */; };
 		C607068F18A6F80F002239C6 /* aboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C607068E18A6F80F002239C6 /* aboutView.m */; };
 		C636FFDC18ACCC9E007739D9 /* calcFoodPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = C636FFDB18ACCC9E007739D9 /* calcFoodPoints.m */; };
 		C63F221E18B942DB00868C7D /* calcDailyPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = C63F221D18B942DB00868C7D /* calcDailyPoints.m */; };
@@ -119,6 +120,7 @@
 		7E7322E52007F0B000CA6F69 /* zeroPointsiPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zeroPointsiPad.h; sourceTree = "<group>"; };
 		7E7322E62007F0C200CA6F69 /* zeroPointsiPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zeroPointsiPad.m; sourceTree = "<group>"; };
 		7E7921B81FF0444B00E3B1E5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E8EB0DA20322EDC00EC1995 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = images/help.png; sourceTree = "<group>"; };
 		C607068D18A6F80F002239C6 /* aboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutView.h; sourceTree = "<group>"; };
 		C607068E18A6F80F002239C6 /* aboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutView.m; sourceTree = "<group>"; };
 		C636FFDA18ACCC9E007739D9 /* calcFoodPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calcFoodPoints.h; sourceTree = "<group>"; };
@@ -343,6 +345,7 @@
 		C6496AC318A569AB00D6C3AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E8EB0DA20322EDC00EC1995 /* help.png */,
 				7E3BB482200BF0F500B7909F /* Icon-120.png */,
 				7E3BB484200BF0F500B7909F /* Icon-167.png */,
 				7E3BB483200BF0F500B7909F /* Icon-1024.png */,
@@ -601,6 +604,7 @@
 				C69306BB18BBE74C00C6AFDC /* google.png in Resources */,
 				C651259D1903121000F4ABD6 /* google_word.png in Resources */,
 				C664D60918A5930800C25180 /* pointslist.bc in Resources */,
+				7E8EB0DB20322EDC00EC1995 /* help.png in Resources */,
 				C6F264CF19031073009C7495 /* facebook_Word.png in Resources */,
 				C6852F1B18BD2F9400D14D34 /* facebook.png in Resources */,
 				C69146021C5AC6CB00077304 /* HowTo_word.png in Resources */,

@@ -1553,6 +1553,14 @@
                                     <outlet property="delegate" destination="J86-hq-SF5" id="v1G-A9-yfH"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jXs-TP-KCd">
+                                <rect key="frame" x="488" y="490" width="144" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="help.png"/>
+                                <connections>
+                                    <action selector="showFieldHelp:" destination="J86-hq-SF5" eventType="touchUpInside" id="W4s-DS-u8N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -1779,6 +1787,14 @@
                                     <outlet property="delegate" destination="Eov-uf-oks" id="mWK-Dt-U9Q"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Fy0-g5-pGC">
+                                <rect key="frame" x="488" y="486" width="144" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="help.png"/>
+                                <connections>
+                                    <action selector="showFieldHelp:" destination="Eov-uf-oks" eventType="touchUpInside" id="sCP-fL-eVk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -2501,6 +2517,7 @@
         <image name="changePlan.png" width="127" height="72"/>
         <image name="facebook_Word.png" width="320" height="82"/>
         <image name="google_word.png" width="322" height="108"/>
+        <image name="help.png" width="144" height="144"/>
         <image name="howTo.png" width="127" height="72"/>
         <image name="soundcloud_word.png" width="240" height="140"/>
         <image name="twitter_large.png" width="144" height="144"/>
