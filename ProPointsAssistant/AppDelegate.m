@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <StoreKit/StoreKit.h>
 
 @implementation AppDelegate {
     UIViewController *viewController;
@@ -101,7 +102,20 @@
         self.window.rootViewController = viewController;
         [self.window makeKeyAndVisible];
     }
+    
+    //Putting this in to request a review from the user's
+    int shortestTime = 15;
+    int longestTime = 60;
+    int timeInterval = arc4random_uniform(longestTime - shortestTime) + shortestTime;
+    
+    [NSTimer scheduledTimerWithTimeInterval:timeInterval target:self selector:@selector(requestReview) userInfo:nil repeats:NO];
+    
+    
     return YES;
+}
+
+- (void)requestReview {
+    [SKStoreReviewController requestReview];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2DE2D224C61A63007FD71B /* greenZeroSP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2DE2D124C61A63007FD71B /* greenZeroSP.m */; };
+		7E2DE2D724C61D46007FD71B /* greenzero.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E2DE2D424C61D45007FD71B /* greenzero.bc */; };
+		7E2DE2D824C61D46007FD71B /* purplezero.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E2DE2D524C61D45007FD71B /* purplezero.bc */; };
+		7E2DE2D924C61D46007FD71B /* bluezero.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E2DE2D624C61D45007FD71B /* bluezero.bc */; };
 		7E3BB485200BF0F500B7909F /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3BB482200BF0F500B7909F /* Icon-120.png */; };
 		7E3BB486200BF0F500B7909F /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3BB483200BF0F500B7909F /* Icon-1024.png */; };
 		7E3BB487200BF0F500B7909F /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3BB484200BF0F500B7909F /* Icon-167.png */; };
@@ -16,7 +20,21 @@
 		7E4831BD2002BC3A008C1E99 /* alcohol.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E4831BC2002BC3A008C1E99 /* alcohol.bc */; };
 		7E7322E72007F0C200CA6F69 /* zeroPointsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7322E62007F0C200CA6F69 /* zeroPointsiPad.m */; };
 		7E7921B91FF0444B00E3B1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7921B81FF0444B00E3B1E5 /* LaunchScreen.storyboard */; };
+		7E7C871C24B8B83200F02584 /* bluesmartpoints.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E7C871924B8B83100F02584 /* bluesmartpoints.bc */; };
+		7E7C871D24B8B83200F02584 /* purplesmartpoints.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E7C871A24B8B83100F02584 /* purplesmartpoints.bc */; };
+		7E7C871E24B8B83200F02584 /* greensmartpoints.bc in Resources */ = {isa = PBXBuildFile; fileRef = 7E7C871B24B8B83100F02584 /* greensmartpoints.bc */; };
+		7E7C872024B8B88600F02584 /* greenSmartPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C871F24B8B88600F02584 /* greenSmartPoints.m */; };
+		7E7C872724B8C3CA00F02584 /* greenSmartPointsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C872624B8C3CA00F02584 /* greenSmartPointsiPad.m */; };
 		7E8EB0DB20322EDC00EC1995 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E8EB0DA20322EDC00EC1995 /* help.png */; };
+		7EADF88524C77ACF00165EFF /* blueSmartPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF87F24C77ACF00165EFF /* blueSmartPoints.m */; };
+		7EADF88624C77ACF00165EFF /* blueZeroSP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF88124C77ACF00165EFF /* blueZeroSP.m */; };
+		7EADF88724C77ACF00165EFF /* purpleZeroSP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF88224C77ACF00165EFF /* purpleZeroSP.m */; };
+		7EADF88824C77ACF00165EFF /* purpleSmartPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF88424C77ACF00165EFF /* purpleSmartPoints.m */; };
+		7EADF89324C77AEE00165EFF /* purpleSmartPointsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF88924C77AEE00165EFF /* purpleSmartPointsiPad.m */; };
+		7EADF89424C77AEE00165EFF /* blueSmartPointsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF88A24C77AEE00165EFF /* blueSmartPointsiPad.m */; };
+		7EADF89524C77AEE00165EFF /* greenZeroSPiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF88B24C77AEE00165EFF /* greenZeroSPiPad.m */; };
+		7EADF89624C77AEE00165EFF /* blueZeroSPiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF88F24C77AEE00165EFF /* blueZeroSPiPad.m */; };
+		7EADF89724C77AEE00165EFF /* purpleZeroSPiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EADF89224C77AEE00165EFF /* purpleZeroSPiPad.m */; };
 		C607068F18A6F80F002239C6 /* aboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = C607068E18A6F80F002239C6 /* aboutView.m */; };
 		C636FFDC18ACCC9E007739D9 /* calcFoodPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = C636FFDB18ACCC9E007739D9 /* calcFoodPoints.m */; };
 		C63F221E18B942DB00868C7D /* calcDailyPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = C63F221D18B942DB00868C7D /* calcDailyPoints.m */; };
@@ -109,6 +127,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E2DE2D124C61A63007FD71B /* greenZeroSP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenZeroSP.m; sourceTree = "<group>"; };
+		7E2DE2D324C61A74007FD71B /* greenZeroSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = greenZeroSP.h; sourceTree = "<group>"; };
+		7E2DE2D424C61D45007FD71B /* greenzero.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = greenzero.bc; sourceTree = "<group>"; };
+		7E2DE2D524C61D45007FD71B /* purplezero.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = purplezero.bc; sourceTree = "<group>"; };
+		7E2DE2D624C61D45007FD71B /* bluezero.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bluezero.bc; sourceTree = "<group>"; };
 		7E3BB482200BF0F500B7909F /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "images/Icon-120.png"; sourceTree = "<group>"; };
 		7E3BB483200BF0F500B7909F /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-1024.png"; path = "images/Icon-1024.png"; sourceTree = "<group>"; };
 		7E3BB484200BF0F500B7909F /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-167.png"; path = "images/Icon-167.png"; sourceTree = "<group>"; };
@@ -120,7 +143,32 @@
 		7E7322E52007F0B000CA6F69 /* zeroPointsiPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zeroPointsiPad.h; sourceTree = "<group>"; };
 		7E7322E62007F0C200CA6F69 /* zeroPointsiPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zeroPointsiPad.m; sourceTree = "<group>"; };
 		7E7921B81FF0444B00E3B1E5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7C871924B8B83100F02584 /* bluesmartpoints.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bluesmartpoints.bc; sourceTree = "<group>"; };
+		7E7C871A24B8B83100F02584 /* purplesmartpoints.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = purplesmartpoints.bc; sourceTree = "<group>"; };
+		7E7C871B24B8B83100F02584 /* greensmartpoints.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = greensmartpoints.bc; sourceTree = "<group>"; };
+		7E7C871F24B8B88600F02584 /* greenSmartPoints.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenSmartPoints.m; sourceTree = "<group>"; };
+		7E7C872124B8B8B500F02584 /* greenSmartPoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = greenSmartPoints.h; sourceTree = "<group>"; };
+		7E7C872524B8C3B600F02584 /* greenSmartPointsiPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = greenSmartPointsiPad.h; sourceTree = "<group>"; };
+		7E7C872624B8C3CA00F02584 /* greenSmartPointsiPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenSmartPointsiPad.m; sourceTree = "<group>"; };
 		7E8EB0DA20322EDC00EC1995 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = images/help.png; sourceTree = "<group>"; };
+		7EADF87D24C77ACF00165EFF /* blueSmartPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueSmartPoints.h; sourceTree = "<group>"; };
+		7EADF87E24C77ACF00165EFF /* purpleZeroSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purpleZeroSP.h; sourceTree = "<group>"; };
+		7EADF87F24C77ACF00165EFF /* blueSmartPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueSmartPoints.m; sourceTree = "<group>"; };
+		7EADF88024C77ACF00165EFF /* blueZeroSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueZeroSP.h; sourceTree = "<group>"; };
+		7EADF88124C77ACF00165EFF /* blueZeroSP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueZeroSP.m; sourceTree = "<group>"; };
+		7EADF88224C77ACF00165EFF /* purpleZeroSP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = purpleZeroSP.m; sourceTree = "<group>"; };
+		7EADF88324C77ACF00165EFF /* purpleSmartPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purpleSmartPoints.h; sourceTree = "<group>"; };
+		7EADF88424C77ACF00165EFF /* purpleSmartPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = purpleSmartPoints.m; sourceTree = "<group>"; };
+		7EADF88924C77AEE00165EFF /* purpleSmartPointsiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = purpleSmartPointsiPad.m; sourceTree = "<group>"; };
+		7EADF88A24C77AEE00165EFF /* blueSmartPointsiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueSmartPointsiPad.m; sourceTree = "<group>"; };
+		7EADF88B24C77AEE00165EFF /* greenZeroSPiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greenZeroSPiPad.m; sourceTree = "<group>"; };
+		7EADF88C24C77AEE00165EFF /* purpleZeroSPiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purpleZeroSPiPad.h; sourceTree = "<group>"; };
+		7EADF88D24C77AEE00165EFF /* blueSmartPointsiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueSmartPointsiPad.h; sourceTree = "<group>"; };
+		7EADF88E24C77AEE00165EFF /* blueZeroSPiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueZeroSPiPad.h; sourceTree = "<group>"; };
+		7EADF88F24C77AEE00165EFF /* blueZeroSPiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueZeroSPiPad.m; sourceTree = "<group>"; };
+		7EADF89024C77AEE00165EFF /* greenZeroSPiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greenZeroSPiPad.h; sourceTree = "<group>"; };
+		7EADF89124C77AEE00165EFF /* purpleSmartPointsiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = purpleSmartPointsiPad.h; sourceTree = "<group>"; };
+		7EADF89224C77AEE00165EFF /* purpleZeroSPiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = purpleZeroSPiPad.m; sourceTree = "<group>"; };
 		C607068D18A6F80F002239C6 /* aboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutView.h; sourceTree = "<group>"; };
 		C607068E18A6F80F002239C6 /* aboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutView.m; sourceTree = "<group>"; };
 		C636FFDA18ACCC9E007739D9 /* calcFoodPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calcFoodPoints.h; sourceTree = "<group>"; };
@@ -260,6 +308,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E7C872224B8C33400F02584 /* greenbluepurpleFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7E2DE2D624C61D45007FD71B /* bluezero.bc */,
+				7E2DE2D424C61D45007FD71B /* greenzero.bc */,
+				7E2DE2D524C61D45007FD71B /* purplezero.bc */,
+				7E7C871924B8B83100F02584 /* bluesmartpoints.bc */,
+				7E7C871B24B8B83100F02584 /* greensmartpoints.bc */,
+				7E7C871A24B8B83100F02584 /* purplesmartpoints.bc */,
+			);
+			path = greenbluepurpleFiles;
+			sourceTree = "<group>";
+		};
+		7E7C872324B8C36400F02584 /* greenbluepurplePhone */ = {
+			isa = PBXGroup;
+			children = (
+				7EADF87D24C77ACF00165EFF /* blueSmartPoints.h */,
+				7EADF87F24C77ACF00165EFF /* blueSmartPoints.m */,
+				7EADF88024C77ACF00165EFF /* blueZeroSP.h */,
+				7EADF88124C77ACF00165EFF /* blueZeroSP.m */,
+				7EADF88324C77ACF00165EFF /* purpleSmartPoints.h */,
+				7EADF88424C77ACF00165EFF /* purpleSmartPoints.m */,
+				7EADF87E24C77ACF00165EFF /* purpleZeroSP.h */,
+				7EADF88224C77ACF00165EFF /* purpleZeroSP.m */,
+				7E2DE2D324C61A74007FD71B /* greenZeroSP.h */,
+				7E2DE2D124C61A63007FD71B /* greenZeroSP.m */,
+				7E7C872124B8B8B500F02584 /* greenSmartPoints.h */,
+				7E7C871F24B8B88600F02584 /* greenSmartPoints.m */,
+			);
+			path = greenbluepurplePhone;
+			sourceTree = "<group>";
+		};
+		7E7C872424B8C39900F02584 /* greenbluepurplePad */ = {
+			isa = PBXGroup;
+			children = (
+				7EADF88D24C77AEE00165EFF /* blueSmartPointsiPad.h */,
+				7EADF88A24C77AEE00165EFF /* blueSmartPointsiPad.m */,
+				7EADF88E24C77AEE00165EFF /* blueZeroSPiPad.h */,
+				7EADF88F24C77AEE00165EFF /* blueZeroSPiPad.m */,
+				7EADF89024C77AEE00165EFF /* greenZeroSPiPad.h */,
+				7EADF88B24C77AEE00165EFF /* greenZeroSPiPad.m */,
+				7EADF89124C77AEE00165EFF /* purpleSmartPointsiPad.h */,
+				7EADF88924C77AEE00165EFF /* purpleSmartPointsiPad.m */,
+				7EADF88C24C77AEE00165EFF /* purpleZeroSPiPad.h */,
+				7EADF89224C77AEE00165EFF /* purpleZeroSPiPad.m */,
+				7E7C872524B8C3B600F02584 /* greenSmartPointsiPad.h */,
+				7E7C872624B8C3CA00F02584 /* greenSmartPointsiPad.m */,
+			);
+			path = greenbluepurplePad;
+			sourceTree = "<group>";
+		};
 		C607068C18A6F7F9002239C6 /* About */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,6 +524,7 @@
 		C664D60218A592F600C25180 /* lists */ = {
 			isa = PBXGroup;
 			children = (
+				7E7C872224B8C33400F02584 /* greenbluepurpleFiles */,
 				7E4831BC2002BC3A008C1E99 /* alcohol.bc */,
 				7E4831BA2002BBD6008C1E99 /* smartpointslist.bc */,
 				7E4831B72002B306008C1E99 /* zeropoint.bc */,
@@ -440,6 +540,8 @@
 		C664D61918A6DCCA00C25180 /* listViews */ = {
 			isa = PBXGroup;
 			children = (
+				7E7C872424B8C39900F02584 /* greenbluepurplePad */,
+				7E7C872324B8C36400F02584 /* greenbluepurplePhone */,
 				C664D60C18A6C7EA00C25180 /* foodListView.h */,
 				C664D60D18A6C7EA00C25180 /* foodListView.m */,
 				C664D61A18A6DE6A00C25180 /* fAndHView.h */,
@@ -549,6 +651,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -569,8 +672,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C69306BC18BBE74C00C6AFDC /* soundcloud.png in Resources */,
+				7E7C871C24B8B83200F02584 /* bluesmartpoints.bc in Resources */,
 				C65125A3190314A600F4ABD6 /* soundcloud_word.png in Resources */,
 				C65125A5190314F800F4ABD6 /* twitter_large.png in Resources */,
+				7E7C871D24B8B83200F02584 /* purplesmartpoints.bc in Resources */,
+				7E7C871E24B8B83200F02584 /* greensmartpoints.bc in Resources */,
 				C6496AD318A569AB00D6C3AE /* Main_iPad.storyboard in Resources */,
 				C664D5FC18A5877700C25180 /* proPointsIcon.png in Resources */,
 				C6A3960718F1D1AD00A3FB76 /* Breaking Bad.ttf in Resources */,
@@ -589,13 +695,16 @@
 				C68E16A318A96F590020649F /* ThreeCelliPad.xib in Resources */,
 				C6560CBC1C35A3410098BA3A /* Images.xcassets in Resources */,
 				C68E16AD18A971540020649F /* OneCelliPad.xib in Resources */,
+				7E2DE2D824C61D46007FD71B /* purplezero.bc in Resources */,
 				C65125A71905B08800F4ABD6 /* tab_calc.png in Resources */,
 				C664D61018A6D30300C25180 /* TwoCelliPhone.xib in Resources */,
 				C69306BE18BBE74C00C6AFDC /* youtube.png in Resources */,
+				7E2DE2D724C61D46007FD71B /* greenzero.bc in Resources */,
 				C664D61218A6D31100C25180 /* OneCelliPhone.xib in Resources */,
 				C664D60718A5930800C25180 /* boostersanddrinks.bc in Resources */,
 				7E3BB486200BF0F500B7909F /* Icon-1024.png in Resources */,
 				C69306BD18BBE74C00C6AFDC /* twitter.png in Resources */,
+				7E2DE2D924C61D46007FD71B /* bluezero.bc in Resources */,
 				C6496AC718A569AB00D6C3AE /* InfoPlist.strings in Resources */,
 				7E4831B82002B306008C1E99 /* zeropoint.bc in Resources */,
 				C65125A1190313BD00F4ABD6 /* youtube_word.png in Resources */,
@@ -633,18 +742,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EADF89424C77AEE00165EFF /* blueSmartPointsiPad.m in Sources */,
 				C68E16A618A96FAE0020649F /* ThreeCelliPad.m in Sources */,
 				C6496AD618A569AB00D6C3AE /* ViewController.m in Sources */,
 				C6FE64CA18B6A2DE0002E53D /* calcExerPoints.m in Sources */,
 				C607068F18A6F80F002239C6 /* aboutView.m in Sources */,
+				7EADF89324C77AEE00165EFF /* purpleSmartPointsiPad.m in Sources */,
+				7E7C872724B8C3CA00F02584 /* greenSmartPointsiPad.m in Sources */,
+				7EADF88624C77ACF00165EFF /* blueZeroSP.m in Sources */,
 				C67093D01C42C1EC00D5F88C /* calcSPExerPoints.m in Sources */,
 				C653652518A97A5C003ED2F1 /* fAndHiPad.m in Sources */,
 				C6496ACD18A569AB00D6C3AE /* AppDelegate.m in Sources */,
 				C664D61C18A6DE6A00C25180 /* fAndHView.m in Sources */,
 				C67093E91C42DBE900D5F88C /* alcoholiPad.m in Sources */,
+				7E7C872024B8B88600F02584 /* greenSmartPoints.m in Sources */,
+				7EADF88724C77ACF00165EFF /* purpleZeroSP.m in Sources */,
 				C67093E31C42DA7200D5F88C /* smartPointsiPad.m in Sources */,
 				7E4831B62002B055008C1E99 /* zeroPointsView.m in Sources */,
+				7EADF89624C77AEE00165EFF /* blueZeroSPiPad.m in Sources */,
 				C6A3960A18F1D1D500A3FB76 /* breakingBadFont.m in Sources */,
+				7E2DE2D224C61A63007FD71B /* greenZeroSP.m in Sources */,
 				C6496AC918A569AB00D6C3AE /* main.m in Sources */,
 				C653652818A97E2C003ED2F1 /* boostersiPad.m in Sources */,
 				7E7322E72007F0C200CA6F69 /* zeroPointsiPad.m in Sources */,
@@ -656,12 +773,16 @@
 				C67093DA1C42D0BE00D5F88C /* smartPointsList.m in Sources */,
 				C63F221E18B942DB00868C7D /* calcDailyPoints.m in Sources */,
 				C67093DD1C42D53500D5F88C /* nocount.m in Sources */,
+				7EADF88524C77ACF00165EFF /* blueSmartPoints.m in Sources */,
+				7EADF89724C77AEE00165EFF /* purpleZeroSPiPad.m in Sources */,
 				C67093E01C42D64000D5F88C /* alcohol.m in Sources */,
 				C664D61F18A6E38500C25180 /* boostersView.m in Sources */,
 				C636FFDC18ACCC9E007739D9 /* calcFoodPoints.m in Sources */,
+				7EADF89524C77AEE00165EFF /* greenZeroSPiPad.m in Sources */,
 				C6FE64C718AD13FE0002E53D /* commonFunctions.m in Sources */,
 				C68E16AB18A9712D0020649F /* TwoCelliPad.m in Sources */,
 				C653652B18A97E8B003ED2F1 /* treatsiPad.m in Sources */,
+				7EADF88824C77ACF00165EFF /* purpleSmartPoints.m in Sources */,
 				C664D62218A6E39900C25180 /* treatsView.m in Sources */,
 				C664D60E18A6C7EA00C25180 /* foodListView.m in Sources */,
 				C67093E61C42DB2E00D5F88C /* noCountiPad.m in Sources */,
@@ -826,10 +947,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.3.0;
 				DEVELOPMENT_TEAM = 4588PSH5YL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProPointsAssistant/TrackingAssistant-Prefix.pch";
 				INFOPLIST_FILE = "ProPointsAssistant/TrackingAssistant-Info.plist";
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bc.TrackingAssistant;
 				PRODUCT_NAME = TrackingAssistant;
 				PROVISIONING_PROFILE = "";
@@ -844,10 +967,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.3.0;
 				DEVELOPMENT_TEAM = 4588PSH5YL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProPointsAssistant/TrackingAssistant-Prefix.pch";
 				INFOPLIST_FILE = "ProPointsAssistant/TrackingAssistant-Info.plist";
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bc.TrackingAssistant;
 				PRODUCT_NAME = TrackingAssistant;
 				PROVISIONING_PROFILE = "";
